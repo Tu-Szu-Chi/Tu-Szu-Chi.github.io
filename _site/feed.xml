@@ -5,9 +5,60 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Oct 2016 18:13:12 +0800</pubDate>
-    <lastBuildDate>Mon, 17 Oct 2016 18:13:12 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Oct 2016 23:31:41 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2016 23:31:41 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Back-End 學習路(1)</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;一直都在為之後職涯方向做思考，尤其我也不是個技術的牛人，總該先選擇一個方向去專精．(有錢讓我過生活，持續摸索下去)&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我喜好在PTT_Soft_job &amp;amp; &lt;a href=&quot;https://sudo.com.tw/&quot;&gt;Sudo&lt;/a&gt;上看職缺來參考，覺得公司團隊等…較為新穎；大陸的話，&lt;a href=&quot;http://www.51job.com/&quot;&gt;「前程無憂」&lt;/a&gt;也是個可參考的網站．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;休學後一直挺憧憬做Data相關的工作，認為這是未來不可避免的趨勢，著重在算法、分析的工作也讓人覺得頗具挑戰的；但在諮詢些建議後(甚至在PTT問版友)，目前在國內沒有個碩士學位or 2-3年相關經驗實在不容易找到Junior的職缺．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;但這也讓我看見某些職缺雖徵Back-End，公司的核心業務&amp;amp;未來發展卻都有機會碰到這塊，所以我選擇先往後端走，並在兵役結束前的這段時間把底子在扎實點．&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;對於求職的心態，我是以禮貌為前提的積極去爭取，即使我還有四個月兵役，我也有先投幾家感到興趣的職缺；也很感謝某個團隊的CEO親自致電來和我聊聊，並給予我接下來的進修方向，期待之後服完役能再聯絡．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;這是我接下來的進修方向：&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;SQL語法操作&lt;/li&gt;
+  &lt;li&gt;MySQL +  PHP with PDO-plugin&lt;/li&gt;
+  &lt;li&gt;PHP ORM操作&lt;/li&gt;
+  &lt;li&gt;PHP API 撰寫&lt;/li&gt;
+  &lt;li&gt;資料庫概論&lt;/li&gt;
+  &lt;li&gt;PHP: The Right Way&lt;/li&gt;
+  &lt;li&gt;Laravel設計模式&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;現階段是這樣，大概有約6個月的時間，期許自身能爭取到理想中的第一份工作．&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/back-end/2016/09/23/Back-End-%E5%AD%B8%E7%BF%92%E8%B7%AF(1)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/back-end/2016/09/23/Back-End-%E5%AD%B8%E7%BF%92%E8%B7%AF(1)/</guid>
+        
+        <category>Laravel</category>
+        
+        <category>PHP</category>
+        
+        <category>Web</category>
+        
+        
+        <category>Back-End</category>
+        
+      </item>
     
       <item>
         <title>關於休學</title>
