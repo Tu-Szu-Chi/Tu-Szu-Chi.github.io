@@ -1,0 +1,48 @@
+/*
+*For Mark space (Category & Tag)
+*/
+.mark-space{
+    padding: 1em;
+    background-color: powderblue;
+    border-radius: 10px;
+}
+.codinfox-mark{
+    color: #999;
+    text-decoration: none;
+    background-color: mintcream;
+    padding: 0.3em;
+    border-radius: 6px;
+}
+/*
+*For Category list
+*/
+.codinfox-category-list>li>h3>a{
+  text-decoration:none;
+  transition:all 500ms ease;
+}
+.codinfox-category-list>li>h3>a:hover{
+  color: cadetblue;
+}
+.codinfox-category-list>li{
+  list-style-type: circle;
+  position: inherit;
+  transition:all 500ms ease;
+  -moz-transition:all 500ms ease; /* Firefox 4 */
+  -webkit-transition:all 500ms ease; /* Safari and Chrome */
+  -o-transition:all 500ms ease; /* Opera */
+}
+.codinfox-category-list>li:hover{
+  list-style-type: disc;
+  color: cadetblue;
+  transform: translate(-10px,0);
+  -webkit-transform: translate(-10px,0); /** Chrome & Safari **/
+  -o-transform: translate(-10px,0); /** Opera **/
+  -moz-transform: translate(-10px,0); /** Firefox **/
+}
+.small-tags-space{
+  padding: 0.2em;
+  background-color: mintcream;
+}
+.small-tags-list{
+  font-size: 0.7em;
+}
