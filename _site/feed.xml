@@ -3,10 +3,10 @@
   <channel>
     <title>Jacky.Tu</title>
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
-    <link>https://tu-szu-chi.github.io/blog/</link>
-    <atom:link href="https://tu-szu-chi.github.io/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Oct 2016 15:24:06 +0800</pubDate>
-    <lastBuildDate>Mon, 17 Oct 2016 15:24:06 +0800</lastBuildDate>
+    <link>https://tu-szu-chi.github.io/</link>
+    <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 17 Oct 2016 15:28:02 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2016 15:28:02 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Wed, 20 Jan 2016 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/blog/test/2016/01/20/sample-post/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/blog/test/2016/01/20/sample-post/</guid>
+        <link>https://tu-szu-chi.github.io/test/2016/01/20/sample-post/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/test/2016/01/20/sample-post/</guid>
         
         <category>web</category>
         
