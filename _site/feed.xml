@@ -5,26 +5,69 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Oct 2016 16:02:47 +0800</pubDate>
-    <lastBuildDate>Mon, 17 Oct 2016 16:02:47 +0800</lastBuildDate>
+    <pubDate>Mon, 17 Oct 2016 18:09:56 +0800</pubDate>
+    <lastBuildDate>Mon, 17 Oct 2016 18:09:56 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Sample post with Tag &amp; Categories</title>
-        <description>&lt;p&gt;This is what a post on your blog looks like. This template is especially well suited for posting nice succint blurbs, much like &lt;a href=&quot;http://sethgodin.typepad.com/&quot;&gt;Seth Godin&lt;/a&gt; does. Of course, it will also work well with longer posts, and you can change the number of posts per page in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file. There’s no guarentee this blog will make you write as well as he does, but it will present your writings in a beautiful, clean, and distraction-free way. Try to write a little bit, every day.&lt;/p&gt;
+        <title>關於休學</title>
+        <description>&lt;h1 id=&quot;about-me2013-2016&quot;&gt;在”About Me”的頁面，學歷我寫上2013-2016北科資工&lt;/h1&gt;
 
-&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;h1 id=&quot;section&quot;&gt;因為我在升大四的階段，把休學手續辦了&lt;/h1&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;這一切是在大二結束時，就有的念頭&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我的大學過得並不差，結識許多新朋友，辦了許多活動；功課當初也稟持著有過就好，多去嘗試、探索新事物．
+然而大二結束，我越來越不喜歡學校帶給我的限制，和那不多的選擇性(在此”學校”只針對北科而已)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我是大學才開始接觸程式，也是依自身意願選擇資工系，所以在對現狀感到不滿時，我決定試著往外走出去
+首先是接觸業界，在PTT-Code_Job版看到了些實習資訊，知道自己只會粗淺的HTML+CSS，面試時也不誇大並坦白告知資方，有幸得到一個機會，就從公司的官網更新開始做起(純靜態HTML+CSS+JS)．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;這也讓我快速的成長很多，團隊的溝通，進度的安排，和尋找解決方法的能力(第一次在Stackoverflow發問也挺興奮的)
+接著也獨自去參加台灣黑客松11th，也和人組了隊，更結識了許多各領域的朋友(台大醫科休學的創業者、靠Angular翻身的工程師、專門來黑客松結識人的大哥)，大夥坐一起就開始在桌上的牛皮紙談著許多點子，提出自己看法，然後分析/拆解它，這感覺也是我第一次體驗到的，也讓我事後想了許多關於「好的點子」&amp;amp;「好的執行力」&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;最後讓我更下定決心的，是在讀完「沒有教室的未來大學」這本書，對於在讀大學，或即將要唸大學的同學，很推薦去翻翻；這不是鼓舞大家都休學，而是可以反思一下，想在你念的(或想要念的)大學得到什麼．
+接著大三下也加入AppWorks畢業出來的團隊，做兒童程式教育、當了講師；和同學接了案子用PHP,Laravel…等，日後希望可以分享給大家．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;我承認，文憑在當今確實會有它的用處，我不否認其價值；
+只是在北科裡，我認為得到這張證書，我會失去的更多．
+即使我是跟北科不適合，但我也不想轉學，或許是因為我覺得大學該體驗的都體驗了，早點出去自力更生，吃點苦也是很好的選擇．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;p&gt;這一年下來，我確確實實地感受到自己的成長，不論是心理或技術上，也很感謝爸媽對我的支持和理解(即使8月辦休學,我是到6月才坦白的)．
+在這抉擇上，最壞的結果，大概是我想去的地方都需要著文憑，讓我不得已只好回去花至少一年完成學業，還必須半工半讀掙生活費
+但這最壞的結果我可以接受．&lt;/p&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;不是休學就該去創業、做一番大事業才可以離開學校，即使未來五年、十年我也和別人一樣在某間公司擔任工程師，但重點是那年我下了這個抉擇，我去思考，我去反省，我去探索我去闖，我選了一條比較不一樣的路，看到許多我原本機會看見的事物．
+即便未來捉模不定，我們還是必須不斷下抉擇，去找尋自我的價值&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;這是Blog第一篇文，期許自己不要停止思考，永遠反思下去&lt;/p&gt;
 </description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/test/2016/01/20/sample-post/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/test/2016/01/20/sample-post/</guid>
+        <pubDate>Sat, 13 Aug 2016 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/life/2016/08/13/%E9%97%9C%E6%96%BC%E4%BC%91%E5%AD%B8/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2016/08/13/%E9%97%9C%E6%96%BC%E4%BC%91%E5%AD%B8/</guid>
         
-        <category>web</category>
-        
-        <category>jekyll</category>
+        <category>Education</category>
         
         
-        <category>TEST</category>
+        <category>Life</category>
         
       </item>
     

@@ -1,0 +1,49 @@
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+}
+ul.navbar li {
+  float: left;
+
+
+}
+ul.navbar li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+
+}
+
+ul.navbar li a:hover {background-color: #555;}
+
+@media screen and (max-width:1300px) {
+  ul.navbar li:not(:first-child) {display: none;}
+  ul.navbar li.icon {
+    float: right;
+    display: inline-block;
+
+  }
+}
+/*When Open Menu*/
+  ul.navbar.responsive li {
+    float: none;
+    display: inline;
+
+  }
+  ul.navbar.responsive {
+
+  }
+  ul.navbar.responsive li a {
+    display: block;
+    text-align: left;
+  }
