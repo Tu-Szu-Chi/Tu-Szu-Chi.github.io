@@ -46,3 +46,20 @@
 .small-tags-list{
   font-size: 0.7em;
 }
+/*
+* Expert & Read-more style
+*/
+.expert{
+  font-size: 1em;
+  color: steelblue;
+}
+.read-more{
+  font-size: 0.7em;
+  color: azure;
+  background: lightslategrey;
+  transition: all 1s ease;
+}
+.read-more:hover{
+  color:lavenderblush;
+  background: cornflowerblue;
+}

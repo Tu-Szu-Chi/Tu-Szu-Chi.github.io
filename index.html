@@ -16,7 +16,17 @@ layout: default
 
   </header>
 
-    {{ post.content }}
+  {{ post.excerpt }}
+  {% capture content_words %}
+    {{ post.content | number_of_words }}
+  {% endcapture %}
+  {% capture excerpt_words %}
+    {{ post.excerpt | number_of_words }}
+  {% endcapture %}
+  {% if excerpt_words != content_words %}
+  <p><a class="btn btn-sm read-more" href="{{ post.url }}/#read-more" role="button">Read more <i class="fa fa-arrow-circle-right"></i></a>
+  </p>
+  {% endif %}
 
 <p class="post-meta" style="text-align: right; color: rgb(152,152,152);"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %} • <label for="our-popup-{{ forloop.index }}"><i class="fa fa-share"></i> Share / Permalink</label></p>
 
@@ -36,7 +46,7 @@ layout: default
 <!-- Trigger -->
 <button class="share-btn" data-clipboard-target="#foo{{ forloop.index }}">COPY LINK
 </button>
-            <p style="text-align: center;">Share on: <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" target="_blank">Facebook</a> • 
+            <p style="text-align: center;">Share on: <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}" target="_blank">Facebook</a> •
 
 			<p style="text-align: center;"><label for="our-popup-{{ forloop.index }}">cancel</label></p>
 		</div>
