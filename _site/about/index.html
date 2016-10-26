@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/stylesheet.css">
+  <link rel="canonical" href="https://tu-szu-chi.github.io/about/">
+  <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/sharing-popup.css">
+  <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/myCss.css">
+  <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/navbar.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+  <link rel="alternate" type="application/rss+xml" title="Jacky.Tu" href="https://tu-szu-chi.github.io/feed.xml">
+  <script src="https://use.fontawesome.com/080141b397.js"></script>
+  <meta name="description" content="分享我在Web相關技術學習心得&生活札記">
+
+   <title>About Me</title>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85774592-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+  <body>
+
+    <header class="page-header">
+     <h1 class="project-name"> <a class="header-link" href="/"> Jacky.Tu</a></h1>
+     <!--<h3 style="font-weight: lighter;">a blog for <a class="header-link" href="http://canijustgo.com/" target="_blank">canijustgo.com</a></h3>-->
+     <h3><a class="header-link" href="https://www.facebook.com/zuchi.tu" target="_blank">FB @zuchi.tu</a></h3>
+</header>
+
+    <ul class="navbar" id="myTopnav">
+  <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
+  <li><a class="active" href="/">Home</a></li>
+  <li><a href="/category">Category</a></li>
+  <li><a href="/tag">Tag</a></li>
+  <li><a href="/about">About Me</a></li>
+</ul>
+
+<script style="text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    let navbar = $('ul.navbar');
+    let icon = $('li.icon');
+    if (x.className === "navbar") {
+        x.className += " responsive";
+        icon.children('a').html('<');
+    } else {
+        x.className = "navbar";
+        icon.children('a').html('☰');
+    }
+}
+</script>
+
+    <section class="main-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About Me</h1>
+  </header>
+
+  <div class="post-content">
+    <blockquote>
+  <p>涂思齊 , 1995/2 , 新北人<br />
+2013-2016 北科大資訊工程就讀<br />
+喜好排球、電影和義大利麵<br />
+投入過程式教育，操作過權證<br />
+最終以Back-End為踏入IT界的起始點，期許能更深入Fintech領域．</p>
+</blockquote>
+
+<blockquote>
+  <p>Email: tost84226@gmail.com</p>
+</blockquote>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <p style="font-size: 60%; text-align: right;">blog built using the <a href="https://github.com/jasonlong/cayman-theme">cayman-theme</a> by <a href="https://github.com/jasonlong">Jason Long</a>. <a href="http://creativecommons.org/licenses/by/4.0/">LICENSE</a></p>
+
+
+
+  </body>
+
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+<script>
+var clipboard = new Clipboard('.share-btn');
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+</script>
+
+
+</html>
