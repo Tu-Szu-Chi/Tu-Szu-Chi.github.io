@@ -5,9 +5,37 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Oct 2016 14:02:13 +0800</pubDate>
-    <lastBuildDate>Wed, 26 Oct 2016 14:02:13 +0800</lastBuildDate>
+    <pubDate>Sat, 11 Feb 2017 17:22:08 +0800</pubDate>
+    <lastBuildDate>Sat, 11 Feb 2017 17:22:08 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>大兵日記(一)</title>
+        <description>&lt;h4 id=&quot;section&quot;&gt;2/11 新竹關西206旅結訓假&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;新訓告一段落，時間比想像中還快，真的撐過那前幾天比較難熬之外，其餘的都還過得去，只是無聊了一點．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;新訓有放到年假，但年假都拿去追劇、Overwatch，看幾集Udemy課程而已，順便寫一些自己的小作品；在軍中大部分都是些瑣碎時間，自認比較有效率利用的話就是帶單字本或是小說過去看．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;接下來11週下部隊，有週休二日，個人運氣也不錯抽到關指部，應該是每週可以順利回住處；個人規劃是持續完成作品，並在Udemy把資料結構&amp;amp;Vue.js課程完成，為了之後的面試做準備，期許自身再更積極一點．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 11 Feb 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/life/2017/02/11/%E5%A4%A7%E5%85%B5%E6%97%A5%E8%A8%98(%E4%B8%80)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2017/02/11/%E5%A4%A7%E5%85%B5%E6%97%A5%E8%A8%98(%E4%B8%80)/</guid>
+        
+        <category>Education</category>
+        
+        
+        <category>Life</category>
+        
+      </item>
     
       <item>
         <title>Back-End 學習路(1)</title>
