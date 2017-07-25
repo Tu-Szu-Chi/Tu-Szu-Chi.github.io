@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jacky.Tu</title>
+    <title>Quentin.Tu</title>
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Jun 2017 18:30:37 +0800</pubDate>
-    <lastBuildDate>Sat, 24 Jun 2017 18:30:37 +0800</lastBuildDate>
+    <pubDate>Tue, 25 Jul 2017 20:37:23 +0800</pubDate>
+    <lastBuildDate>Tue, 25 Jul 2017 20:37:23 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
