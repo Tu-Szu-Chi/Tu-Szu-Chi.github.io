@@ -5,9 +5,55 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Jul 2017 20:37:23 +0800</pubDate>
-    <lastBuildDate>Tue, 25 Jul 2017 20:37:23 +0800</lastBuildDate>
+    <pubDate>Thu, 27 Jul 2017 22:18:56 +0800</pubDate>
+    <lastBuildDate>Thu, 27 Jul 2017 22:18:56 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>菜鳥工程師(2)</title>
+        <description>&lt;h2 id=&quot;team-issue&quot;&gt;Team issue&lt;/h2&gt;
+
+&lt;p&gt;滿兩個月了，雖然離適用期剩一個月，但也因為某些事讓我反思在目前公司的狀況．&lt;/p&gt;
+
+&lt;h4 id=&quot;section&quot;&gt;力不從心&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;想試著將Gulp/Webpack &amp;amp; SASS 導入到專案中，但能運用的時間不足，能詢問的只有之前外包的工程師(當顧問)，但能問的部分也不多，畢竟當前的程式架構和之前相比大相徑庭．
+p.s. 但最終還是將SASS &amp;amp; Babel 引入了，也順利讓環境建立起來，整合許多&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt;引入的問題，有了Babel也不用再為了IE煩惱語法不支援的問題．&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;section-1&quot;&gt;缺乏標準&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;在接後端API &amp;amp; 使用CSS style上，發現沒「制度化」真的是一件很困擾的事，例如代表同樣的key卻在其他的API會有另一種keyname (ex. theId|| the_id)
+CSS style雖然有拿到.scss的原檔，但在和近三個月的.css整合起來又是要費工夫了&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;priority&quot;&gt;Priority&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;剛面試完，以為近來不久就差不多要將專案用Angular||React來重構，但面對的是一直有新的page要產出&amp;amp;優化先前的Code(Loading page時間過長)&amp;amp;處理IE相容性問題…
+&lt;br /&gt;在沒有標準化&amp;amp;其他前端工具下，而前端工程師又只有我一人，造成沒法放太多時間在檢查自己的程式，必須要開發下個功能 or Page。
+&lt;br /&gt;雖然能理解新創想趕緊將第一版產品上線的心情，公司產品最有價值的或許是背後的演算法，但要呈現出畫面的「過程」，如果不能經過標準化&amp;amp;高擴充\維護性來開發，可能會本末導致整個產品的延後及品質。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;當然，這兩個月確實也有學到東西，也不斷督促自己要為自己寫的Code負責，才交給QA去測試。&lt;br /&gt;
+在閱覽Library API Doc也越來越抓到訣竅，畢竟新創專案中避免重造輪子，能用套件實現的就盡量用，但在使用上也要兼顧程式的「複用性」。&lt;br /&gt;
+本身沒有很在意滿8小時就要趕緊下班，常常都希望能把這功能 or Bug Fix一段落再走，待8.5~9.5h也不覺得虧到，但經過這陣子確實滅了些當初進來的熱忱。&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 25 Jul 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/job/2017/07/25/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(2)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2017/07/25/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(2)/</guid>
+        
+        <category>JOB</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>JOB</category>
+        
+      </item>
     
       <item>
         <title>菜鳥工程師(1)</title>
@@ -35,7 +81,7 @@
 &lt;h4 id=&quot;section-2&quot;&gt;後記&lt;/h4&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;雖然現在公司內部沒有更資深的前端可以指導我，但這也在當初想進新創公司中預期的情形；可值得一提的是，下了班後反而依然會很有動力想學更多準備會用到的和已經在用的技術，也很慶幸和公司外包協作的工程師是個很好的人，Coding資歷也很深，提點了很多方向給我；原本還會擔心到底要先學React or Angular，但似乎更重要的是先將原生Javascript弄熟，所以現階段以加強AMD.Module的寫法，試著導入RequireJS到專案中，讓自己可以完全Handle專案前端的部份．&lt;/p&gt;
+  &lt;p&gt;雖然現在公司內部沒有更資深的前端可以指導我，但這也在當初想進新創公司中預期的情形；可值得一提的是，下了班後反而依然會很有動力想學更多準備會用到的和已經在用的技術，也很慶幸和公司外包協作的工程師是個很好的人，Coding資歷也很深，提點了很多方向給我；原本還會擔心到底要先學React or Angular，但似乎更重要的是先將原生Javascript弄熟，所以現階段以加強UMD.Module的寫法，試著導入此設計模式到專案中，讓自己可以完全Handle專案前端的部份．&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 15 Jun 2017 00:00:00 +0800</pubDate>
