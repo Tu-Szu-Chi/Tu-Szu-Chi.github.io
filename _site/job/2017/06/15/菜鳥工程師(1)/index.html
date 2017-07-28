@@ -43,7 +43,7 @@
 </header>
 
     <ul class="navbar" id="myTopnav">
-  <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a></li>
+  <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"></a></li>
   <li><a class="active" href="/">Home</a></li>
   <li><a href="/category">Category</a></li>
   <li><a href="/tag">Tag</a></li>
@@ -57,10 +57,8 @@ function myFunction() {
     let icon = $('li.icon');
     if (x.className === "navbar") {
         x.className += " responsive";
-        icon.children('a').html('<');
     } else {
         x.className = "navbar";
-        icon.children('a').html('☰');
     }
 }
 </script>

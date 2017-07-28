@@ -5,8 +5,8 @@ ul.navbar {
     overflow: hidden;
     background-color: #333;
     position: fixed;
-    transition: all 1s linear;
-    -webkit-transition: all 1s linear;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
 }
 
 ul.navbar li {
@@ -23,17 +23,22 @@ ul.navbar li a {
     font-size: 17px;
 }
 
+ul.navbar li.icon a:after {
+    content: "☰";
+    transition: all 1s ease;
+}
+
+ul.navbar li:not(:first-child) {
+    display: none;
+}
+
 ul.navbar li a:hover {
     background-color: #555;
 }
 
 @media screen and (max-width:1300px) {
-    ul.navbar li:not(: first-child) {
-        display: none;
-    }
-    ul.navbar li.icon {
-        float: right;
-        display: inline-block;
+    ul.navbar {
+        right: 0;
     }
 }
 
@@ -45,7 +50,9 @@ ul.navbar.responsive li {
     display: inline;
 }
 
-ul.navbar.responsive {}
+ul.navbar.responsive li.icon a:after {
+    content: ">";
+}
 
 ul.navbar.responsive li a {
     display: block;
