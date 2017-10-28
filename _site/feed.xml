@@ -5,8 +5,8 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 10 Oct 2017 20:02:14 +0800</pubDate>
-    <lastBuildDate>Tue, 10 Oct 2017 20:02:14 +0800</lastBuildDate>
+    <pubDate>Sat, 28 Oct 2017 22:49:58 +0800</pubDate>
+    <lastBuildDate>Sat, 28 Oct 2017 22:49:58 +0800</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
     
       <item>
@@ -42,281 +42,155 @@
       </item>
     
       <item>
-        <title>菜鳥工程師(2)</title>
-        <description>&lt;h2 id=&quot;team-issue&quot;&gt;Team issue&lt;/h2&gt;
-
-&lt;p&gt;滿兩個月了，雖然離適用期剩一個月，但也因為某些事讓我反思在目前公司的狀況．&lt;/p&gt;
-
-&lt;h4 id=&quot;力不從心&quot;&gt;力不從心&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;想試著將Gulp/Webpack &amp;amp; SASS 導入到專案中，但能運用的時間不足，能詢問的只有之前外包的工程師(當顧問)，但能問的部分也不多，畢竟當前的程式架構和之前相比大相徑庭．
-p.s. 但最終還是將SASS &amp;amp; Babel 引入了，也順利讓環境建立起來，整合許多&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt;引入的問題，有了Babel也不用再為了IE煩惱語法不支援的問題．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;缺乏標準&quot;&gt;缺乏標準&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;在接後端API &amp;amp; 使用CSS style上，發現沒「制度化」真的是一件很困擾的事，例如代表同樣的key卻在其他的API會有另一種keyname (ex. theId|| the_id)
-CSS style雖然有拿到.scss的原檔，但在和近三個月的.css整合起來又是要費工夫了&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;priority&quot;&gt;Priority&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;剛面試完，以為近來不久就差不多要將專案用Angular||React來重構，但面對的是一直有新的page要產出&amp;amp;優化先前的Code(Loading page時間過長)&amp;amp;處理IE相容性問題…
-&lt;br /&gt;在沒有標準化&amp;amp;其他前端工具下，而前端工程師又只有我一人，造成沒法放太多時間在檢查自己的程式，必須要開發下個功能 or Page。
-&lt;br /&gt;雖然能理解新創想趕緊將第一版產品上線的心情，公司產品最有價值的或許是背後的演算法，但要呈現出畫面的「過程」，如果不能經過標準化&amp;amp;高擴充\維護性來開發，可能會本末導致整個產品的延後及品質。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;當然，這兩個月確實也有學到東西，也不斷督促自己要為自己寫的Code負責，才交給QA去測試。&lt;br /&gt;
-在閱覽Library API Doc也越來越抓到訣竅，畢竟新創專案中避免重造輪子，能用套件實現的就盡量用，但在使用上也要兼顧程式的「複用性」。&lt;br /&gt;
-本身沒有很在意滿8小時就要趕緊下班，常常都希望能把這功能 or Bug Fix一段落再走，待8.5~9.5h也不覺得虧到，但經過這陣子確實滅了些當初進來的熱忱。&lt;/p&gt;
-
+        <title>Javascript ES6 Generator 介紹</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/27/js-es6-generator/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 25 Jul 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2017/07/25/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(2)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2017/07/25/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(2)/</guid>
+        <pubDate>Wed, 27 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</guid>
         
-        <category>JOB</category>
+        <category>SOV</category>
         
         <category>Front-End</category>
         
         
-        <category>JOB</category>
+        <category>SOVMedCare</category>
         
       </item>
     
       <item>
-        <title>菜鳥工程師(1)</title>
-        <description>&lt;h4 id=&quot;工作環境&quot;&gt;工作環境&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;剛到公司前幾天在熟悉環境(Develop)，畢竟辦公室共6個人，也不會有要跑去別部門之類的情況劇；很喜歡辦公室的工業風裝潢，還有那美式的福利以及人體工學椅，只是第三週發現膠囊咖啡機的義式濃縮被換成一堆拿鐵了…淡淡哀傷．
-寬敞的個人空間真的很不錯，做起事都無壓力，冰箱的能量飲料在第二天我就知道為何該有了…
-吃得也很方便，選擇性很多，價格也平易近人，但我都選最近的麵店解決，早早回去座位休息逛逛各新聞．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;工作狀況&quot;&gt;工作狀況&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;專案架構也熟悉的算順利，整體還是Laravel，但也更要求自己寫註解、寫得讓人容易維護擴充的Code，畢竟還有其他協作的工程師會用到．
-前幾天都在摸關於D3那類的套件，花了很多時間看文件，找解法，評估用哪個套件、改最少的Code能達到理想效果，畢竟平台這陣子就要有第一版上線，不能花太多時間在太細部的地方上．
-陸續針對要上線的部分做新增/修改，因大部分都可照自己的方式實作，所以選擇用了大量的Flexbox來佈局，整體到現在都還算滿意，配合RWD CSS(xs-flex,sm-flex,lg-flex)也很方便，因專案之前已有許多CSS class，所以也都盡可能使用之前有的．
-兩位主管也都很願意花時間和大家談問題，公司導入Scrum，也用Redmine，下午兩點都會花個10~15分鐘大家談談昨天做的和下午接著要做的東西，個人覺得蠻不錯，能更針對平台MVP上線效率提升．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;後記&quot;&gt;後記&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;雖然現在公司內部沒有更資深的前端可以指導我，但這也在當初想進新創公司中預期的情形；可值得一提的是，下了班後反而依然會很有動力想學更多準備會用到的和已經在用的技術，也很慶幸和公司外包協作的工程師是個很好的人，Coding資歷也很深，提點了很多方向給我；原本還會擔心到底要先學React or Angular，但似乎更重要的是先將原生Javascript弄熟，所以現階段以加強UMD.Module的寫法，試著導入此設計模式到專案中，讓自己可以完全Handle專案前端的部份．&lt;/p&gt;
-&lt;/blockquote&gt;
+        <title>RxJs實現Redux功能</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/21/redux-single-line-of-rxjs/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 15 Jun 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2017/06/15/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(1)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2017/06/15/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(1)/</guid>
+        <pubDate>Thu, 21 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</guid>
         
-        <category>JOB</category>
+        <category>SOV</category>
         
         <category>Front-End</category>
         
         
-        <category>JOB</category>
+        <category>SOVMedCare</category>
         
       </item>
     
       <item>
-        <title>退伍-&gt; 求職</title>
-        <description>&lt;h3 id=&quot;結論是去面試了front-end-enginneroffer-get&quot;&gt;結論是去面試了Front-End Enginner(Offer get)&lt;/h3&gt;
-
-&lt;h4 id=&quot;服役期&quot;&gt;服役期&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;這期間因為只能帶書進去，所以比較針對理論類的「RestFul API」「SQL操作/優化」「PHP新特性」…等；
-好在分發的單位，寢室書桌夠多，在寢室自由活動的時間也多，能有效利用到．
-當然這一切都是以準備去面試Back-End Enginner所作準備．日後會面試前端的職位也是預料外．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;退伍後---面試&quot;&gt;退伍後 -&amp;gt; 面試&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;退伍前一週就有和想去的公司再次做聯繫，約了退伍後隔沒幾天的電話面試，但知道該公司已於前陣子招足夠的後端人員時，雖然有些可惜，但老闆希望我面試看看前端的位置，公司要把之前外包的前端接回來自己維護擴充；因個人覺得往Full Stack是遲早的，而且公司將要用AngularJS 2(4)，也正好不用讓我猶豫該學React or Angular．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;整個聊的過程約一小時，雖有帶自己的作品去，可自已也知道那不算太有「份量」的專案，所以拿到份測驗(7+1加分題)回家做，是基於目前專案用到的Library之一(DimpleJS)來做修改．&lt;/p&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;個人總共花了三天交出去，比期限早兩天，認為是考驗身為工程師「用新的工具解決的問題」，大量的閱讀官方文檔+不斷的看StackOverflow上大家分享的寫法，然後再基於更改最少的Source-Code ，最終8題都做完，對這份作業的努力也被肯定，Coding過程中也有寫文件記錄自己的思考/實作程序，成功到了最終面試．&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;最後面試和老闆先聊了一下測驗的心得後，就換CTO進來聊深入些，被問到面對問題的解決流程、休學的原因、校內較有印象的課、演算法…等；整體都很愉快，雖然演算法個人很不熟，但CTO分享了很多出來，尾聲問了關於公司近一年的規劃&amp;amp;Code review的事，也拿到對新鮮人來說不錯的Offer．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;後記&quot;&gt;後記&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;一直以來都很希望快點出社會，除了能減少家裡負擔外，和團隊一起打拼的過程我想會令我更感到「工作的意義」；這是第一份身為工程師正職的工作，很謝謝這家公司不介意我沒有文憑、沒太多經驗，願意給我機會發展、嘗試；在試用期三個月內期許展現更多價值外，也要自己「莫忘初衷」、保持這份熱忱．&lt;/p&gt;
-&lt;/blockquote&gt;
+        <title>RxJs Observable介紹</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/13/Rx-js-Observable/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 10 May 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/life/2017/05/10/%E9%80%80%E4%BC%8D-%E6%B1%82%E8%81%B7/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2017/05/10/%E9%80%80%E4%BC%8D-%E6%B1%82%E8%81%B7/</guid>
+        <pubDate>Tue, 19 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Rx-js-Observable/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Rx-js-Observable/</guid>
         
-        <category>JOB</category>
+        <category>SOV</category>
         
         <category>Front-End</category>
         
-        <category>Back-End</category>
         
-        
-        <category>Life</category>
+        <category>SOVMedCare</category>
         
       </item>
     
       <item>
-        <title>大兵日記(一)</title>
-        <description>&lt;h4 id=&quot;211-新竹關西206旅結訓假&quot;&gt;2/11 新竹關西206旅結訓假&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;新訓告一段落，時間比想像中還快，真的撐過那前幾天比較難熬之外，其餘的都還過得去，只是無聊了一點．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;新訓有放到年假，但年假都拿去追劇、Overwatch，看幾集Udemy課程而已，順便寫一些自己的小作品；在軍中大部分都是些瑣碎時間，自認比較有效率利用的話就是帶單字本或是小說過去看．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;接下來11週下部隊，有週休二日，個人運氣也不錯抽到關指部，應該是每週可以順利回住處；個人規劃是持續完成作品，並在Udemy把資料結構&amp;amp;Vue.js課程完成，為了之後的面試做準備，期許自身再更積極一點．&lt;/p&gt;
-&lt;/blockquote&gt;
-
+        <title>RxJs Observable - HOT &amp; COLD</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/13/Observable-HOT-COLD/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 11 Feb 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/life/2017/02/11/%E5%A4%A7%E5%85%B5%E6%97%A5%E8%A8%98/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2017/02/11/%E5%A4%A7%E5%85%B5%E6%97%A5%E8%A8%98/</guid>
+        <pubDate>Tue, 19 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Observable-HOT-COLD/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Observable-HOT-COLD/</guid>
         
-        <category>Education</category>
+        <category>SOV</category>
+        
+        <category>Front-End</category>
         
         
-        <category>Life</category>
+        <category>SOVMedCare</category>
         
       </item>
     
       <item>
-        <title>Back-End 學習路(1)</title>
-        <description>&lt;h3 id=&quot;一直都在為之後職涯方向做思考尤其我也不是個技術的牛人總該先選擇一個方向去專精有錢讓我過生活持續摸索下去&quot;&gt;一直都在為之後職涯方向做思考，尤其我也不是個技術的牛人，總該先選擇一個方向去專精．(有錢讓我過生活，持續摸索下去)&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我喜好在PTT_Soft_job &amp;amp; &lt;a href=&quot;https://sudo.com.tw/&quot;&gt;Sudo&lt;/a&gt;上看職缺來參考，覺得公司團隊等…較為新穎；大陸的話，&lt;a href=&quot;http://www.51job.com/&quot;&gt;「前程無憂」&lt;/a&gt;也是個可參考的網站．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;休學後一直挺憧憬做Data相關的工作，認為這是未來不可避免的趨勢，著重在算法、分析的工作也讓人覺得頗具挑戰的；但在諮詢些建議後(甚至在PTT問版友)，目前在國內沒有個碩士學位or 2-3年相關經驗實在不容易找到Junior的職缺．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;但這也讓我看見某些職缺雖徵Back-End，公司的核心業務&amp;amp;未來發展卻都有機會碰到這塊，所以我選擇先往後端走，並在兵役結束前的這段時間把底子在扎實點．&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;對於求職的心態，我是以禮貌為前提的積極去爭取，即使我還有四個月兵役，我也有先投幾家感到興趣的職缺；也很感謝某個團隊的CEO親自致電來和我聊聊，並給予我接下來的進修方向，期待之後服完役能再聯絡．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;這是我接下來的進修方向&quot;&gt;這是我接下來的進修方向：&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;SQL語法操作&lt;/li&gt;
-  &lt;li&gt;MySQL +  PHP with PDO-plugin&lt;/li&gt;
-  &lt;li&gt;PHP ORM操作&lt;/li&gt;
-  &lt;li&gt;PHP API 撰寫&lt;/li&gt;
-  &lt;li&gt;資料庫概論&lt;/li&gt;
-  &lt;li&gt;PHP: The Right Way&lt;/li&gt;
-  &lt;li&gt;Laravel設計模式&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;現階段是這樣，大概有約6個月的時間，期許自身能爭取到理想中的第一份工作．&lt;/p&gt;
+        <title>5個RxJs有趣範例</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/15/rx-js-funny-examples/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Fri, 23 Sep 2016 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/back-end/2016/09/23/Back-End-%E5%AD%B8%E7%BF%92%E8%B7%AF(1)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/back-end/2016/09/23/Back-End-%E5%AD%B8%E7%BF%92%E8%B7%AF(1)/</guid>
+        <pubDate>Fri, 15 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/15/rx-js-funny-examples/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/15/rx-js-funny-examples/</guid>
         
-        <category>Laravel</category>
+        <category>SOV</category>
         
-        <category>PHP</category>
-        
-        <category>Web</category>
+        <category>Front-End</category>
         
         
-        <category>Back-End</category>
+        <category>SOVMedCare</category>
         
       </item>
     
       <item>
-        <title>關於休學</title>
-        <description>&lt;h4 id=&quot;這一切是在大二結束時就有的念頭&quot;&gt;這一切是在大二結束時，就有的念頭&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我的大學過得並不差，結識許多新朋友，辦了許多活動；功課當初也稟持著有過就好，多去嘗試、探索新事物．
-然而大二結束，我越來越不喜歡學校帶給我的限制，和那不多的選擇性(在此”學校”只針對北科而已)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我是大學才開始接觸程式，也是依自身意願選擇資工系，所以在對現狀感到不滿時，我決定試著往外走出去
-首先是接觸業界，在PTT-Code_Job版看到了些實習資訊，知道自己只會粗淺的HTML+CSS，面試時也不誇大並坦白告知資方，有幸得到一個機會，就從公司的官網更新開始做起(純靜態HTML+CSS+JS)．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;這也讓我快速的成長很多，團隊的溝通，進度的安排，和尋找解決方法的能力(第一次在Stackoverflow發問也挺興奮的)
-接著也獨自去參加台灣黑客松11th，也和人組了隊，更結識了許多各領域的朋友(台大醫科休學的創業者、靠Angular翻身的工程師、專門來黑客松結識人的大哥)，大夥坐一起就開始在桌上的牛皮紙談著許多點子，提出自己看法，然後分析/拆解它，這感覺也是我第一次體驗到的，也讓我事後想了許多關於「好的點子」&amp;amp;「好的執行力」&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;最後讓我更下定決心的，是在讀完「沒有教室的未來大學」這本書，對於在讀大學，或即將要唸大學的同學，很推薦去翻翻；這不是鼓舞大家都休學，而是可以反思一下，想在你念的(或想要念的)大學得到什麼．
-接著大三下也加入AppWorks畢業出來的團隊，做兒童程式教育、當了講師；和同學接了案子用PHP,Laravel…等，日後希望可以分享給大家．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;我承認，文憑在當今確實會有它的用處，我不否認其價值；
-只是在北科裡，我認為得到這張證書，我會失去的更多．
-即使我是跟北科不適合，但我也不想轉學，或許是因為我覺得大學該體驗的都體驗了，早點出去自力更生，吃點苦也是很好的選擇．&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;blockquote&gt;
-    &lt;p&gt;這一年下來，我確確實實地感受到自己的成長，不論是心理或技術上，也很感謝爸媽對我的支持和理解(即使8月辦休學,我是到6月才坦白的)．
-在這抉擇上，最壞的結果，大概是我想去的地方都需要著文憑，讓我不得已只好回去花至少一年完成學業，還必須半工半讀掙生活費
-但這最壞的結果我可以接受．&lt;/p&gt;
-  &lt;/blockquote&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;不是休學就該去創業、做一番大事業才可以離開學校，即使未來五年、十年我也和別人一樣在某間公司擔任工程師，但重點是那年我下了這個抉擇，我去思考，我去反省，我去探索我去闖，我選了一條比較不一樣的路，看到許多我原本機會看見的事物．
-即便未來捉模不定，我們還是必須不斷下抉擇，去找尋自我的價值&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;這是Blog第一篇文，期許自己不要停止思考，永遠反思下去&lt;/p&gt;
+        <title>Pointfree Javascript</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/08/Pointfree-Javascript/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 13 Aug 2016 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/life/2016/08/13/%E9%97%9C%E6%96%BC%E4%BC%91%E5%AD%B8/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2016/08/13/%E9%97%9C%E6%96%BC%E4%BC%91%E5%AD%B8/</guid>
+        <pubDate>Fri, 08 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Pointfree-Javascript/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Pointfree-Javascript/</guid>
         
-        <category>Education</category>
+        <category>SOV</category>
+        
+        <category>Front-End</category>
         
         
-        <category>Life</category>
+        <category>SOVMedCare</category>
+        
+      </item>
+    
+      <item>
+        <title>Immutable.js</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/08/Immutable-js/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Immutable-js/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Immutable-js/</guid>
+        
+        <category>SOV</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>SOVMedCare</category>
+        
+      </item>
+    
+      <item>
+        <title>Function Currying</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/08/Function-Currying/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Function-Currying/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Function-Currying/</guid>
+        
+        <category>SOV</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>SOVMedCare</category>
+        
+      </item>
+    
+      <item>
+        <title>什麼是High Orde Component</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/06/High-Order-Component/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Sep 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/06/HighOrderComponent/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/06/HighOrderComponent/</guid>
+        
+        <category>SOV</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>SOVMedCare</category>
         
       </item>
     
