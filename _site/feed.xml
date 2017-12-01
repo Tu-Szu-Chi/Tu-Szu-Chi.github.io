@@ -5,9 +5,24 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Oct 2017 22:49:58 +0800</pubDate>
-    <lastBuildDate>Sat, 28 Oct 2017 22:49:58 +0800</lastBuildDate>
+    <pubDate>Fri, 01 Dec 2017 23:13:01 +0800</pubDate>
+    <lastBuildDate>Fri, 01 Dec 2017 23:13:01 +0800</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Docker基礎架設(以Python Scrapy為例)</title>
+        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/11/15/docker-example/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Nov 2017 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</guid>
+        
+        <category>SOV</category>
+        
+        
+        <category>SOVMedCare</category>
+        
+      </item>
     
       <item>
         <title>菜鳥工程師(3)</title>
@@ -167,23 +182,6 @@
         <pubDate>Fri, 08 Sep 2017 00:00:00 +0800</pubDate>
         <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Function-Currying/</link>
         <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Function-Currying/</guid>
-        
-        <category>SOV</category>
-        
-        <category>Front-End</category>
-        
-        
-        <category>SOVMedCare</category>
-        
-      </item>
-    
-      <item>
-        <title>什麼是High Orde Component</title>
-        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/06/High-Order-Component/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 06 Sep 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/06/HighOrderComponent/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/06/HighOrderComponent/</guid>
         
         <category>SOV</category>
         
