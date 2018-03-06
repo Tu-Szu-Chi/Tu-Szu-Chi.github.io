@@ -5,9 +5,93 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 06 Mar 2018 16:23:00 +0800</pubDate>
-    <lastBuildDate>Tue, 06 Mar 2018 16:23:00 +0800</lastBuildDate>
+    <pubDate>Tue, 06 Mar 2018 16:35:42 +0800</pubDate>
+    <lastBuildDate>Tue, 06 Mar 2018 16:35:42 +0800</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>TCP/IP 概述</title>
+        <description>&lt;p&gt;&lt;strong&gt;TCP/IP&lt;/strong&gt;觀念是面試常見的問題&lt;/p&gt;
+
+&lt;p&gt;三次握手/四次分手該如何解釋？&lt;/p&gt;
+
+&lt;p&gt;網路層/傳輸層主要在做些什麼？&lt;/p&gt;
+
+&lt;p&gt;雖然自己反覆看了幾篇文章，但隔一陣子看到有人面試被問到後，自己卻也想不起該怎應答，所以決定還是整理一下思路，寫成一篇文章。&lt;/p&gt;
+
+&lt;h1 id=&quot;tcpip協議&quot;&gt;TCP/IP協議&lt;/h1&gt;
+
+&lt;p&gt;TCP, IP這兩個拆開來看，前者位在&lt;strong&gt;傳輸層&lt;/strong&gt;，後者是&lt;strong&gt;網路層&lt;/strong&gt;的協議，但TCP/IP廣泛的就是代表整個Internet協議&lt;/p&gt;
+
+&lt;p&gt;!&lt;a href=&quot;https://user-gold-cdn.xitu.io/2017/11/11/690219fae5b0587fa26e2dee545e6200?imageslim.png&quot;&gt;截自掘金&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;tcp--udp&quot;&gt;TCP | UDP&lt;/h2&gt;
+
+&lt;p&gt;TCP是較爲可靠的傳輸協議，具有順序&amp;amp;重發機制，在需要保證資料使命必答時多會用這種協議。&lt;/p&gt;
+
+&lt;p&gt;UDP相對資料傳輸來說相對不可靠，但其速度是較快的，所以當應用可以接受部分損失的情況下多爲用UDP &lt;code class=&quot;highlighter-rouge&quot;&gt;（ex. 直播,串流影音,廣播...）&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;關於重發機制推薦參考這篇&lt;a href=&quot;https://juejin.im/post/5a7835a46fb9a063606eb801#heading-13&quot;&gt;掘金上的文章&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ip&quot;&gt;IP&lt;/h2&gt;
+
+&lt;p&gt;IP是大家較爲熟悉的名詞，其代表的就是每臺主機在網際網路中的地址。&lt;/p&gt;
+
+&lt;p&gt;IP(IPv4)是由32位元正整數來表示，但爲了方便閱讀，電腦幫我們轉成4組8位元的2進制，並用10進制顯示&lt;/p&gt;
+
+&lt;p&gt;更多詳細的介紹可參考&lt;a href=&quot;https://juejin.im/post/5a069b6d51882509e5432656#heading-21&quot;&gt;這篇&lt;/a&gt;，一樣是掘金上的文章&lt;/p&gt;
+
+&lt;h1 id=&quot;三次握手&quot;&gt;三次握手&lt;/h1&gt;
+
+&lt;p&gt;這概念應該是最常被問到的部分，下圖簡潔的表達出用意&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-gold-cdn.xitu.io/2018/2/5/1616591833b5d408?imageslim.png&quot; alt=&quot;三次握手&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SYN&lt;/strong&gt; = synchronize 同步 | &lt;strong&gt;ACK&lt;/strong&gt; = acknowledgment 確認
+&lt;/p&gt;
+
+&lt;h2 id=&quot;爲什麼要三次握手&quot;&gt;爲什麼要三次握手&lt;/h2&gt;
+
+&lt;p&gt;先用較爲口語來說明三次握手的用意&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;第一次通信時，Client向Server發送訊息，Server收到後可以確認自己的接收能力&amp;amp;Client的發送能力沒有問題&lt;/li&gt;
+  &lt;li&gt;接着第二次通信，Server向Client發送訊息，Client也可以確認自己的發送能力&amp;amp;Server的接收能力沒有問題，因爲Server發回來的東西是基於Client第一次發送的延伸，但此時Server還不能知道自己的發信能力是否得到認可&lt;/li&gt;
+  &lt;li&gt;最後第三次通信，Client向Server發送訊息，此時Server接收到後就知道自己沒問題了&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;給對方認可就會夾帶&lt;strong&gt;ACK&lt;/strong&gt;，請別人認證就會夾帶&lt;strong&gt;SYN&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;之所以要三次是因爲這是要達成&lt;strong&gt;可靠傳輸&lt;/strong&gt;理論上的最小值，否則就像UDP那般直接傳送就好。&lt;/p&gt;
+
+&lt;h1 id=&quot;四次分手&quot;&gt;四次分手&lt;/h1&gt;
+
+&lt;p&gt;有連有斷，再連不難；先用這張圖表達分手的概念&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://user-gold-cdn.xitu.io/2018/2/5/1616591831ac99e0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1&quot; alt=&quot;四次分手&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;TCP連接是全雙工的，所以兩邊都要各自斷開才行，發送&lt;strong&gt;FIN&lt;/strong&gt;即代表要請求斷開，所以一來一往四次剛剛好&lt;/p&gt;
+
+&lt;p&gt;第四次Client向Server發送確認斷開連接後，只要等待&lt;strong&gt;2msl&lt;/strong&gt;都沒收到任何消息，Client就可以安心的關閉連接了 &lt;code class=&quot;highlighter-rouge&quot;&gt;(msl: Maximum Segment Lifetime)&lt;/code&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;參考資料&quot;&gt;參考資料&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5a069b6d51882509e5432656&quot;&gt;一篇文章带你熟悉 TCP/IP 协议（网络协议篇二）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5a7835a46fb9a063606eb801&quot;&gt;图解TCP三次握手与四次分手&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 06 Mar 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/interview/2018/03/06/TCP-IP/</link>
+        <guid isPermaLink="true">http://localhost:4000/interview/2018/03/06/TCP-IP/</guid>
+        
+        <category>Interview</category>
+        
+        
+        <category>Interview</category>
+        
+      </item>
     
       <item>
         <title>Docker基礎架設(以Python Scrapy為例)</title>
@@ -165,23 +249,6 @@
         <pubDate>Fri, 08 Sep 2017 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/sovmedcare/2017/09/08/Immutable-js/</link>
         <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/08/Immutable-js/</guid>
-        
-        <category>SOV</category>
-        
-        <category>Front-End</category>
-        
-        
-        <category>SOVMedCare</category>
-        
-      </item>
-    
-      <item>
-        <title>Function Currying</title>
-        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/08/Function-Currying/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Sep 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sovmedcare/2017/09/08/Function-Currying/</link>
-        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/08/Function-Currying/</guid>
         
         <category>SOV</category>
         

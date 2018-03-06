@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://localhost:4000/stylesheets/stylesheet.css">
+  <link rel="canonical" href="http://localhost:4000/interview/2018/03/06/TCP-IP/">
+  <link rel="stylesheet" href="http://localhost:4000/stylesheets/sharing-popup.css">
+  <link rel="stylesheet" href="http://localhost:4000/stylesheets/myCss.css">
+  <link rel="stylesheet" href="http://localhost:4000/stylesheets/navbar.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+  <link rel="alternate" type="application/rss+xml" title="Quentin.Tu" href="http://localhost:4000/feed.xml">
+  <script src="https://use.fontawesome.com/080141b397.js"></script>
+  <meta name="description" content="簡單地講講TCP的概念，面試不卡關!">
+
+   <title>TCP/IP 概述</title>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85774592-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</head>
+
+
+  <body>
+
+    <header class="page-header">
+     <h1 class="project-name"> <a class="header-link" href="/"> Quentin.Tu</a></h1>
+     <!--<h3 style="font-weight: lighter;">a blog for <a class="header-link" href="http://canijustgo.com/" target="_blank">canijustgo.com</a></h3>-->
+     <h3><a class="header-link" href="https://www.facebook.com/zuchi.tu" target="_blank">FB @zuchi.tu</a></h3>
+</header>
+
+    <ul class="navbar" id="myTopnav">
+  <li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"></a></li>
+  <li><a class="active" href="/">Home</a></li>
+  <li><a href="/category">Category</a></li>
+  <li><a href="/tag">Tag</a></li>
+  <li><a href="/about">About Me</a></li>
+</ul>
+
+<script style="text/javascript">
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    let navbar = $('ul.navbar');
+    let icon = $('li.icon');
+    if (x.className === "navbar") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar";
+    }
+}
+</script>
+
+    <section class="main-content">
+      <div class="wrapper">
+        
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <div class="main-content" itemprop="articleBody">
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline" >TCP/IP 概述&nbsp;&nbsp;
+      <a class="small-tags-space small-tags-list" href="/category/#interview"><i class="fa fa-thumb-tack" aria-hidden="true"></i>Interview</a>
+    </h1>
+   <span class="post-meta"><time datetime="2018-03-06T00:00:00+08:00" itemprop="datePublished">Mar 6, 2018</time></span>
+   <span style="margin-left:20px">
+     
+     <a href="http://localhost:4000/tag/#interview" class="codinfox-mark"><i class="fa fa-tag" aria-hidden="true"></i> Interview </a> &nbsp;&nbsp;
+     
+
+   </span>
+
+  </header>
+<hr>
+    <p><strong>TCP/IP</strong>觀念是面試常見的問題</p>
+
+<p>三次握手/四次分手該如何解釋？</p>
+
+<p>網路層/傳輸層主要在做些什麼？</p>
+
+<p>雖然自己反覆看了幾篇文章，但隔一陣子看到有人面試被問到後，自己卻也想不起該怎應答，所以決定還是整理一下思路，寫成一篇文章。</p>
+
+<h1 id="tcpip協議">TCP/IP協議</h1>
+
+<p>TCP, IP這兩個拆開來看，前者位在<strong>傳輸層</strong>，後者是<strong>網路層</strong>的協議，但TCP/IP廣泛的就是代表整個Internet協議</p>
+
+<p>!<a href="https://user-gold-cdn.xitu.io/2017/11/11/690219fae5b0587fa26e2dee545e6200?imageslim.png">截自掘金</a>
+</p>
+
+<h2 id="tcp--udp">TCP | UDP</h2>
+
+<p>TCP是較爲可靠的傳輸協議，具有順序&amp;重發機制，在需要保證資料使命必答時多會用這種協議。</p>
+
+<p>UDP相對資料傳輸來說相對不可靠，但其速度是較快的，所以當應用可以接受部分損失的情況下多爲用UDP <code class="highlighter-rouge">（ex. 直播,串流影音,廣播...）</code></p>
+
+<p>關於重發機制推薦參考這篇<a href="https://juejin.im/post/5a7835a46fb9a063606eb801#heading-13">掘金上的文章</a></p>
+
+<h2 id="ip">IP</h2>
+
+<p>IP是大家較爲熟悉的名詞，其代表的就是每臺主機在網際網路中的地址。</p>
+
+<p>IP(IPv4)是由32位元正整數來表示，但爲了方便閱讀，電腦幫我們轉成4組8位元的2進制，並用10進制顯示</p>
+
+<p>更多詳細的介紹可參考<a href="https://juejin.im/post/5a069b6d51882509e5432656#heading-21">這篇</a>，一樣是掘金上的文章</p>
+
+<h1 id="三次握手">三次握手</h1>
+
+<p>這概念應該是最常被問到的部分，下圖簡潔的表達出用意</p>
+
+<p><img src="https://user-gold-cdn.xitu.io/2018/2/5/1616591833b5d408?imageslim.png" alt="三次握手" /></p>
+
+<p><strong>SYN</strong> = synchronize 同步 | <strong>ACK</strong> = acknowledgment 確認
+</p>
+
+<h2 id="爲什麼要三次握手">爲什麼要三次握手</h2>
+
+<p>先用較爲口語來說明三次握手的用意</p>
+
+<ul>
+  <li>第一次通信時，Client向Server發送訊息，Server收到後可以確認自己的接收能力&amp;Client的發送能力沒有問題</li>
+  <li>接着第二次通信，Server向Client發送訊息，Client也可以確認自己的發送能力&amp;Server的接收能力沒有問題，因爲Server發回來的東西是基於Client第一次發送的延伸，但此時Server還不能知道自己的發信能力是否得到認可</li>
+  <li>最後第三次通信，Client向Server發送訊息，此時Server接收到後就知道自己沒問題了</li>
+</ul>
+
+<p>給對方認可就會夾帶<strong>ACK</strong>，請別人認證就會夾帶<strong>SYN</strong></p>
+
+<p>之所以要三次是因爲這是要達成<strong>可靠傳輸</strong>理論上的最小值，否則就像UDP那般直接傳送就好。</p>
+
+<h1 id="四次分手">四次分手</h1>
+
+<p>有連有斷，再連不難；先用這張圖表達分手的概念</p>
+
+<p><img src="https://user-gold-cdn.xitu.io/2018/2/5/1616591831ac99e0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="四次分手" /></p>
+
+<p>TCP連接是全雙工的，所以兩邊都要各自斷開才行，發送<strong>FIN</strong>即代表要請求斷開，所以一來一往四次剛剛好</p>
+
+<p>第四次Client向Server發送確認斷開連接後，只要等待<strong>2msl</strong>都沒收到任何消息，Client就可以安心的關閉連接了 <code class="highlighter-rouge">(msl: Maximum Segment Lifetime)</code></p>
+
+<h1 id="參考資料">參考資料</h1>
+
+<ul>
+  <li><a href="https://juejin.im/post/5a069b6d51882509e5432656">一篇文章带你熟悉 TCP/IP 协议（网络协议篇二）</a></li>
+  <li><a href="https://juejin.im/post/5a7835a46fb9a063606eb801">图解TCP三次握手与四次分手</a></li>
+</ul>
+
+  </div>
+
+<a href="http://localhost:4000"><h3 style="text-align: center;">- to Home -</h3></a>
+
+</article>
+
+      </div>
+    </div>
+
+    <p style="font-size: 60%; text-align: right;">blog built using the <a href="https://github.com/jasonlong/cayman-theme">cayman-theme</a> by <a href="https://github.com/jasonlong">Jason Long</a>. <a href="http://creativecommons.org/licenses/by/4.0/">LICENSE</a></p>
+
+
+
+  </body>
+
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+<script>
+var clipboard = new Clipboard('.share-btn');
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+</script>
+
+
+</html>
