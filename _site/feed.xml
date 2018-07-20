@@ -5,9 +5,104 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Apr 2018 11:50:57 +0800</pubDate>
-    <lastBuildDate>Mon, 02 Apr 2018 11:50:57 +0800</lastBuildDate>
+    <pubDate>Sat, 21 Jul 2018 04:58:34 +0800</pubDate>
+    <lastBuildDate>Sat, 21 Jul 2018 04:58:34 +0800</lastBuildDate>
     <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>前端面試(2)</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;面試心得同步分享在&lt;a href=&quot;https://www.ptt.cc/bbs/Soft_Job/M.1530867366.A.24D.html&quot;&gt;PTT Soft_job&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;去年九月在此版分享面試文,想不到今日又一篇了XD, 在準備on-board的空檔分享給大家&lt;/p&gt;
+
+&lt;p&gt;個人背景: 84年次 北科大資工系學士(肄)&lt;br /&gt;
+大二開始接觸網頁, 沒參加過ACM比賽, 正租著沒冷氣的房子, 多益沒考過(大概6xx吧), 很普通的背景&lt;/p&gt;
+
+&lt;p&gt;先說結論:&lt;br /&gt;
+這次面的公司不多, 原本只是想試水溫, 看這幾個月的經歷在市場的價值, 最後拿到兩家破百的Offer(外商/台商, 非博弈), 算是達到自己的一個里程碑, 最後選擇外商&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TL;DR&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;前情:&lt;br /&gt;
+雖然知道自己英文不好, 但這次還是想挑戰外商, 所以也在家教版徵到英文老師來針對面試加強口說&lt;br /&gt;
+在&lt;code class=&quot;highlighter-rouge&quot;&gt;StackOverflow&lt;/code&gt;看到個美國軟體公司的遠端缺, 第一階面試是在他們網站上錄影回答他們的問題(偏向人格特質), 總共五題, 網站在還沒進到問題前還很貼心說大概會花十分鐘左右&lt;br /&gt;
+最後我花了2.5h反覆修稿&amp;amp;重錄將此完成了…雖然到現在依然無聲卡, 但這次經驗卻也讓我之後的英文面試更有信心&lt;/p&gt;
+
+&lt;p&gt;過程(1):&lt;br /&gt;
+這次有面本版知名的Codementor, 約在晚上七點線上Hangouts, 有兩位面試官&lt;br /&gt;
+互相介紹後, 再聊聊現在的工作, 離開的原因, 過去印象深刻的專案…等, 再問技術相關問題&lt;br /&gt;
+整個過程1.5h, 如板上所言, Codementor真的很重視求職者, 兩位面試官給人的感覺非常好, 知道自己技術問題沒答好, 收到感謝信, 但獲益良多&lt;/p&gt;
+
+&lt;p&gt;過程(2):&lt;br /&gt;
+外商全程皆為Skype面試,第一階由CTO, 1h, 全英文, 介紹公司, 談React&amp;amp;Vue, 離開的原因, 過去專案…, Q&amp;amp;A&lt;br /&gt;
+這一小時大概是第一次全程用英文這麼久…兩三天後收到CTO來信, 他覺得很不錯, 將我送至最後階段面試&lt;br /&gt;
+看到這信有夠感動, 也回信表達感謝他的認同&lt;br /&gt;
+最後階段由CEO&amp;amp;Co-Funder兩位, 其一為台灣人, 在用英文互相介紹後, 我也直接表明希望在這最後階段能用部分中文, 讓我能充分表達, 兩位面試官皆同意&lt;br /&gt;
+沒有技術問題, 一樣是偏人格特質&amp;amp;過去專案,Q&amp;amp;A, 過程也很輕鬆, CEO還會用英文說笑話!?四天後收到Offer&lt;/p&gt;
+
+&lt;p&gt;過程(3):&lt;br /&gt;
+台商也是Hangouts面試, 只經歷一關而已, 幾乎都像是前述所提及的談話內容, 技術問題都是從中提及到, 也大約4,5天拿到Offer&lt;/p&gt;
+
+&lt;p&gt;小結:
+除了JS的基礎外(ES6,原型練,Closure,Event loop…), 對於Performance優化沒實作過也要瞭解&lt;br /&gt;
+更要好好想最能展現自身能力的經歷, 敘述的方式:&lt;code class=&quot;highlighter-rouge&quot;&gt;[問題]-&amp;gt;[過程]-&amp;gt;[結論]&lt;/code&gt;, 能用&lt;code class=&quot;highlighter-rouge&quot;&gt;數字量化&lt;/code&gt;的就用(幾個問題,多少天,提升/減少多少…), 個人認為這題影響面試很重&lt;br /&gt;
+生涯五年後的規劃,如何解決衝突(人)…&lt;br /&gt;
+不管是前端/後端/Data/ios…工程師, 就是要展現自己面對問題的態度&amp;amp;解決問題的能力, 共勉之&lt;/p&gt;
+
+&lt;p&gt;總結:&lt;br /&gt;
+英文好, 除了看文件/文章能更順之外, 選擇也變多, 很值得投資在此&lt;br /&gt;
+這幾個月來, 也主動接觸了很多人, 不管技術面、事業面都有, 從中除了瞭解各產業的生態外, 也能更了解自己嚮往的地方&lt;br /&gt;
+也在這推薦兩個網站: &lt;a href=&quot;https://pjchender.blogspot.com/&quot;&gt;「PJCHENder」&lt;/a&gt;/&lt;a href=&quot;https://denny.qollie.com/&quot;&gt;「denny.qollie」&lt;/a&gt;, 從這兩個網站受益良多&lt;br /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</guid>
+        
+        <category>JOB</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>JOB</category>
+        
+      </item>
+    
+      <item>
+        <title>告別SOV</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.instagram.com/p/Bk2k0AxgAlR/?taken-by=zuchi.tu&quot;&gt;感謝的IG文&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;起初, 只是單純想試試水溫, 看自己在市場上的價值&lt;br /&gt;
+從開始投遞履歷到最後確定接受Offer不到兩個月&lt;br /&gt;
+除了Offer很滿意之外, 也想挑戰英文的外商環境, 畢竟這半殘的學歷(XD)能有這樣的機會很可貴&lt;/p&gt;
+
+&lt;p&gt;從蔡逼八的前端加入SOV, 歷經十個月, 第一次寫技術文, 接觸各種新技術&lt;code class=&quot;highlighter-rouge&quot;&gt;(Rx、Antd、ThreeJs)&lt;/code&gt;, 寫了測試, 開始理解何謂&lt;code class=&quot;highlighter-rouge&quot;&gt;架構&lt;/code&gt;&lt;br /&gt;
+也解決了很多網路和印表機的問題XD, 瀏覽器的列印真的好多坑啊…&lt;/p&gt;
+
+&lt;p&gt;在離開前, 對on-site那天的面試還記憶猶新, 能夠得到SOV Offer對那時的我是一大肯定&lt;br /&gt;
+在職涯首年能有快速成長&amp;amp;生活平衡的機遇實在很幸運&lt;br /&gt;
+也見證到新創公司的成長以及會面臨到的問題&lt;/p&gt;
+
+&lt;p&gt;這一切實在可貴, 我想之後也不容易有這機會加入這樣年輕&lt;del&gt;異性多&lt;/del&gt;的團隊了XD&lt;br /&gt;
+期待SOV之後的成長, 也期許自己不自滿, 持續分享給社群&lt;/p&gt;
+</description>
+        <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</guid>
+        
+        <category>SOV</category>
+        
+        <category>Life</category>
+        
+        
+        <category>Life</category>
+        
+      </item>
     
       <item>
         <title>在Haskell使用Module</title>
@@ -152,7 +247,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;學習真的是很需要動機，從七月底開始接觸React.js，，過去一直沒有好好專注地學一種前端框架，但立即需要的時候那效率真是…&lt;/p&gt;
+&lt;p&gt;學習真的是很需要動機，從七月底開始接觸React.js，過去一直沒有好好專注地學一種前端框架，但立即需要的時候那效率真是…&lt;/p&gt;
 
 &lt;p&gt;主要加強了JS的基礎觀念&amp;amp;面試最常會問到的ES6相關 &lt;em&gt;(Closure、Arrow function、Promise、Generator)&lt;/em&gt;，也準備了個小作品，以React為框架去做股票Chart圖的呈現&amp;amp;比較多支股票的走勢，盡量操作到Promise、Lifecycle、Redux，也用了Webpack、SASS&lt;/p&gt;
 
@@ -215,40 +310,6 @@
         <pubDate>Tue, 19 Sep 2017 00:00:00 +0800</pubDate>
         <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Rx-js-Observable/</link>
         <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Rx-js-Observable/</guid>
-        
-        <category>SOV</category>
-        
-        <category>Front-End</category>
-        
-        
-        <category>SOVMedCare</category>
-        
-      </item>
-    
-      <item>
-        <title>RxJs Observable - HOT &amp; COLD</title>
-        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/13/Observable-HOT-COLD/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Sep 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Observable-HOT-COLD/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Observable-HOT-COLD/</guid>
-        
-        <category>SOV</category>
-        
-        <category>Front-End</category>
-        
-        
-        <category>SOVMedCare</category>
-        
-      </item>
-    
-      <item>
-        <title>5個RxJs有趣範例</title>
-        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/15/rx-js-funny-examples/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Sep 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/15/rx-js-funny-examples/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/15/rx-js-funny-examples/</guid>
         
         <category>SOV</category>
         
