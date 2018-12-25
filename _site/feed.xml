@@ -3,11 +3,11 @@
   <channel>
     <title>Quentin.Tu</title>
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
-    <link>https://tu-szu-chi.github.io/</link>
-    <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Jul 2018 04:58:34 +0800</pubDate>
-    <lastBuildDate>Sat, 21 Jul 2018 04:58:34 +0800</lastBuildDate>
-    <generator>Jekyll v3.5.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 14 Dec 2018 19:06:35 +0800</pubDate>
+    <lastBuildDate>Fri, 14 Dec 2018 19:06:35 +0800</lastBuildDate>
+    <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>前端面試(2)</title>
@@ -59,8 +59,8 @@
 也在這推薦兩個網站: &lt;a href=&quot;https://pjchender.blogspot.com/&quot;&gt;「PJCHENder」&lt;/a&gt;/&lt;a href=&quot;https://denny.qollie.com/&quot;&gt;「denny.qollie」&lt;/a&gt;, 從這兩個網站受益良多&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</guid>
+        <link>http://localhost:4000/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</guid>
         
         <category>JOB</category>
         
@@ -92,8 +92,8 @@
 期待SOV之後的成長, 也期許自己不自滿, 持續分享給社群&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</guid>
+        <link>http://localhost:4000/life/2018/07/06/Bye-Bye-SOV/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2018/07/06/Bye-Bye-SOV/</guid>
         
         <category>SOV</category>
         
@@ -109,8 +109,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2018/03/27/haskell-with-module/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Mar 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2018/03/27/haskell-with-module/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2018/03/27/haskell-with-module/</guid>
+        <link>http://localhost:4000/sovmedcare/2018/03/27/haskell-with-module/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2018/03/27/haskell-with-module/</guid>
         
         <category>SOV</category>
         
@@ -126,8 +126,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2018/03/19/learn-youa-haskell/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Mar 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2018/03/19/learn-youa-haskell/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2018/03/19/learn-youa-haskell/</guid>
+        <link>http://localhost:4000/sovmedcare/2018/03/19/learn-youa-haskell/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2018/03/19/learn-youa-haskell/</guid>
         
         <category>SOV</category>
         
@@ -212,8 +212,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 06 Mar 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</guid>
+        <link>http://localhost:4000/interview/2018/03/06/TCP-IP/</link>
+        <guid isPermaLink="true">http://localhost:4000/interview/2018/03/06/TCP-IP/</guid>
         
         <category>Interview</category>
         
@@ -227,8 +227,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/11/15/docker-example/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Nov 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</guid>
+        <link>http://localhost:4000/sovmedcare/2017/11/15/Docker-Example/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/11/15/Docker-Example/</guid>
         
         <category>SOV</category>
         
@@ -257,8 +257,8 @@
 持續寫更多技術性文章&amp;amp;貢獻些甚麼到技術社群或參與公民專案&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</guid>
+        <link>http://localhost:4000/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</guid>
         
         <category>JOB</category>
         
@@ -274,8 +274,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/27/js-es6-generator/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</guid>
+        <link>http://localhost:4000/sovmedcare/2017/09/27/javascript-es6-generator/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/27/javascript-es6-generator/</guid>
         
         <category>SOV</category>
         
@@ -291,8 +291,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/21/redux-single-line-of-rxjs/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Sep 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</guid>
+        <link>http://localhost:4000/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</guid>
         
         <category>SOV</category>
         
@@ -308,8 +308,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/13/Rx-js-Observable/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 19 Sep 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Rx-js-Observable/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/19/Rx-js-Observable/</guid>
+        <link>http://localhost:4000/sovmedcare/2017/09/19/Rx-js-Observable/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/19/Rx-js-Observable/</guid>
         
         <category>SOV</category>
         
