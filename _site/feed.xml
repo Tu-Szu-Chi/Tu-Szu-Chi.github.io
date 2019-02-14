@@ -3,11 +3,55 @@
   <channel>
     <title>Quentin.Tu</title>
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 14 Dec 2018 19:06:35 +0800</pubDate>
-    <lastBuildDate>Fri, 14 Dec 2018 19:06:35 +0800</lastBuildDate>
+    <link>https://tu-szu-chi.github.io/</link>
+    <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 Feb 2019 22:12:43 +0800</pubDate>
+    <lastBuildDate>Thu, 14 Feb 2019 22:12:43 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>菜鳥工程師(4)</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;不知不覺在新公司也半年了，趁著新的一年開始記錄下過去幾個月的心得&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;前三個月&quot;&gt;前三個月&lt;/h3&gt;
+&lt;p&gt;剛加入的時候還在適應遠端工作型態，突然不用顧忌通勤、打卡時間好像很愜意，但第一週後就發現反而更要要求自己的作息。&lt;br /&gt;
+前兩週常常因為比較晚開始工作(將近11點)，導致工作到八點左右，間接影響用餐時間。&lt;br /&gt;
+有時又會受外力影響，整體工作時段又延後了，遠端的優勢反而成了反效果。&lt;br /&gt;
+之後因為有了9:30A.M的&lt;strong&gt;Daily Meeting&lt;/strong&gt;讓自己有早起的動力外，也發現&lt;strong&gt;12點上床&lt;/strong&gt;搭配&lt;strong&gt;7:30&lt;/strong&gt;起床能給我很好的精神，也逐漸養成習慣。&lt;/p&gt;
+
+&lt;p&gt;英文也是持續在加強的部分，有時有全體的會議、討論issue以及Code review都是很頻繁的事情。&lt;br /&gt;
+每週的家教加上每日使用&lt;small&gt;(以及常駐國外實況主頻道~)&lt;/small&gt;，進步的挺有成效，在口說上也更有自信。&lt;br /&gt;
+也趁著AmazingTalker的週年特價，找到適合的老師並買了50堂課，這陣子上下來真的是高CP值啊！&lt;/p&gt;
+
+&lt;p&gt;工作上用最多的技術不外乎是&lt;strong&gt;Vue&lt;/strong&gt;&lt;small&gt;(搭配Vuex, vue-router)&lt;/small&gt;，也有發現前端的專案架構並沒有那麼好&lt;small&gt;(改變props的值…css class的命名…檔案存放規則)&lt;/small&gt;&lt;br /&gt;
+在提出後改善掉這些，導入Eslint、升級Webpack至4.0，也去Github上看了許多人在使用Vue為底的專案，算是對&lt;strong&gt;架構&lt;/strong&gt;有了多一層體悟。&lt;br /&gt;
+不論用React還是Vue，&lt;strong&gt;好&lt;/strong&gt;的架構隨著專案複雜度的上升，會有明顯的優勢。&lt;/p&gt;
+
+&lt;h3 id=&quot;至今&quot;&gt;至今&lt;/h3&gt;
+&lt;p&gt;這幾個月來當然也有些人事異動，連高層都有，但也加入了很多夥伴，開發/行銷/業務/管理都有擴編；也需要去習慣不同國家的口音，這部分真的只能更專注地聆聽來補強了。&lt;br /&gt;
+遠端的優勢對我而言還是很有吸引力，省了通勤(也不太用治裝)，多了時間顧貓，但三餐偶爾會忽略;總之省的那些時間，拿來學習或放鬆都覺得超值啦！&lt;br /&gt;
+但也會懷念在公司和同事們相處的日子，確實會對同事比較認識，有一群好同事在同個空間裡，上班的效率、心情都會有大幅的正面影響。&lt;/p&gt;
+
+&lt;p&gt;在新技術上，雖然有持續關注，像是&lt;strong&gt;React Hooks&lt;/strong&gt;、&lt;strong&gt;Flutter&lt;/strong&gt;，還有想嘗試的&lt;strong&gt;GraphQL&lt;/strong&gt;、&lt;strong&gt;Golang&lt;/strong&gt;…等，皆暫時沒有開專案去碰，只有看文章而已。&lt;br /&gt;
+主要是想把自己原有的基礎再更穩固，從演算法、資料結構再到目前前端上的Javascript、Browser &amp;amp; Networking，畢竟就像大家說的，隨便挑一個領域水都很深，需要花時間的。&lt;br /&gt;
+像是&lt;strong&gt;Closure&lt;/strong&gt;&amp;amp;&lt;strong&gt;Hoisting&lt;/strong&gt;這兩項基礎，每隔一陣子就會再複習一遍，直到最近看到&lt;a href=&quot;https://github.com/aszx87410/blog&quot;&gt;Huli&lt;/a&gt;針對這兩塊做更深入的解說後，又有豁然開朗的感覺。&lt;br /&gt;
+確實有想過，只做前端會不會容易碰上「天花板」；但我覺得這只是跨入軟工的一種起手方式，不斷精進自我，加強基本功，當有機會時去爭取、去把握住，就能走得更寬更深。&lt;br /&gt;
+目前依然以前端工程師的頭銜，努力去成為優秀的軟體工程師，與大家共勉之。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 05 Feb 2019 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/job/2019/02/05/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(4)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2019/02/05/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(4)/</guid>
+        
+        <category>JOB</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>JOB</category>
+        
+      </item>
     
       <item>
         <title>前端面試(2)</title>
@@ -59,8 +103,8 @@
 也在這推薦兩個網站: &lt;a href=&quot;https://pjchender.blogspot.com/&quot;&gt;「PJCHENder」&lt;/a&gt;/&lt;a href=&quot;https://denny.qollie.com/&quot;&gt;「denny.qollie」&lt;/a&gt;, 從這兩個網站受益良多&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</link>
-        <guid isPermaLink="true">http://localhost:4000/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</guid>
+        <link>https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</guid>
         
         <category>JOB</category>
         
@@ -92,8 +136,8 @@
 期待SOV之後的成長, 也期許自己不自滿, 持續分享給社群&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/life/2018/07/06/Bye-Bye-SOV/</link>
-        <guid isPermaLink="true">http://localhost:4000/life/2018/07/06/Bye-Bye-SOV/</guid>
+        <link>https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</guid>
         
         <category>SOV</category>
         
@@ -109,8 +153,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2018/03/27/haskell-with-module/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Mar 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sovmedcare/2018/03/27/haskell-with-module/</link>
-        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2018/03/27/haskell-with-module/</guid>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2018/03/27/haskell-with-module/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2018/03/27/haskell-with-module/</guid>
         
         <category>SOV</category>
         
@@ -126,8 +170,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2018/03/19/learn-youa-haskell/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Mar 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sovmedcare/2018/03/19/learn-youa-haskell/</link>
-        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2018/03/19/learn-youa-haskell/</guid>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2018/03/19/learn-youa-haskell/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2018/03/19/learn-youa-haskell/</guid>
         
         <category>SOV</category>
         
@@ -212,8 +256,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 06 Mar 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/interview/2018/03/06/TCP-IP/</link>
-        <guid isPermaLink="true">http://localhost:4000/interview/2018/03/06/TCP-IP/</guid>
+        <link>https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</guid>
         
         <category>Interview</category>
         
@@ -227,8 +271,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/11/15/docker-example/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Nov 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sovmedcare/2017/11/15/Docker-Example/</link>
-        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/11/15/Docker-Example/</guid>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</guid>
         
         <category>SOV</category>
         
@@ -257,8 +301,8 @@
 持續寫更多技術性文章&amp;amp;貢獻些甚麼到技術社群或參與公民專案&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</link>
-        <guid isPermaLink="true">http://localhost:4000/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</guid>
+        <link>https://tu-szu-chi.github.io/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</guid>
         
         <category>JOB</category>
         
@@ -274,8 +318,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/27/js-es6-generator/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 27 Sep 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sovmedcare/2017/09/27/javascript-es6-generator/</link>
-        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/27/javascript-es6-generator/</guid>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</guid>
         
         <category>SOV</category>
         
@@ -291,25 +335,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/21/redux-single-line-of-rxjs/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Sep 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</link>
-        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</guid>
-        
-        <category>SOV</category>
-        
-        <category>Front-End</category>
-        
-        
-        <category>SOVMedCare</category>
-        
-      </item>
-    
-      <item>
-        <title>RxJs Observable介紹</title>
-        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/13/Rx-js-Observable/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Tue, 19 Sep 2017 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/sovmedcare/2017/09/19/Rx-js-Observable/</link>
-        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/09/19/Rx-js-Observable/</guid>
+        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/21/redux-single-linie-of-rxjs/</guid>
         
         <category>SOV</category>
         

@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://tu-szu-chi.github.io/favicon.ico?">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/stylesheet.css">
-  <link rel="canonical" href="https://tu-szu-chi.github.io/job/2017/07/25/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(2)/">
+  <link rel="canonical" href="https://tu-szu-chi.github.io/job/2019/02/05/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(4)/">
   <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/sharing-popup.css">
   <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/myCss.css">
   <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/navbar.css">
@@ -15,9 +15,9 @@
   <script   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
   <link rel="alternate" type="application/rss+xml" title="Quentin.Tu" href="https://tu-szu-chi.github.io/feed.xml">
   <script src="https://use.fontawesome.com/080141b397.js"></script>
-  <meta name="description" content="滿二月的反思">
+  <meta name="description" content="外商-遠端-新的一年">
 
-   <title>菜鳥工程師(2)</title>
+   <title>菜鳥工程師(4)</title>
 
 
   <script>
@@ -72,10 +72,10 @@ function myFunction() {
 
     <div class="main-content" itemprop="articleBody">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline" >菜鳥工程師(2)&nbsp;&nbsp;
+    <h1 class="post-title" itemprop="name headline" >菜鳥工程師(4)&nbsp;&nbsp;
       <a class="small-tags-space small-tags-list" href="/category/#job"><i class="fa fa-thumb-tack" aria-hidden="true"></i>JOB</a>
     </h1>
-   <span class="post-meta"><time datetime="2017-07-25T00:00:00+08:00" itemprop="datePublished">Jul 25, 2017</time></span>
+   <span class="post-meta"><time datetime="2019-02-05T00:00:00+08:00" itemprop="datePublished">Feb 5, 2019</time></span>
    <span style="margin-left:20px">
      
      <a href="https://tu-szu-chi.github.io/tag/#job" class="codinfox-mark"><i class="fa fa-tag" aria-hidden="true"></i> JOB </a> &nbsp;&nbsp;
@@ -87,36 +87,34 @@ function myFunction() {
 
   </header>
 <hr>
-    <h2 id="team-issue">Team issue</h2>
-
-<p>滿兩個月了，雖然離適用期剩一個月，但也因為某些事讓我反思在目前公司的狀況．</p>
-
-<h4 id="力不從心">力不從心</h4>
-
-<blockquote>
-  <p>想試著將Gulp/Webpack &amp; SASS 導入到專案中，但能運用的時間不足，能詢問的只有之前外包的工程師(當顧問)，但能問的部分也不多，畢竟當前的程式架構和之前相比大相徑庭．
-p.s. 但最終還是將SASS &amp; Babel 引入了，也順利讓環境建立起來，整合許多<code class="highlighter-rouge">&lt;script&gt;</code>引入的問題，有了Babel也不用再為了IE煩惱語法不支援的問題．</p>
+    <blockquote>
+  <p>不知不覺在新公司也半年了，趁著新的一年開始記錄下過去幾個月的心得</p>
 </blockquote>
 
-<h4 id="缺乏標準">缺乏標準</h4>
+<h3 id="前三個月">前三個月</h3>
+<p>剛加入的時候還在適應遠端工作型態，突然不用顧忌通勤、打卡時間好像很愜意，但第一週後就發現反而更要要求自己的作息。<br />
+前兩週常常因為比較晚開始工作(將近11點)，導致工作到八點左右，間接影響用餐時間。<br />
+有時又會受外力影響，整體工作時段又延後了，遠端的優勢反而成了反效果。<br />
+之後因為有了9:30A.M的<strong>Daily Meeting</strong>讓自己有早起的動力外，也發現<strong>12點上床</strong>搭配<strong>7:30</strong>起床能給我很好的精神，也逐漸養成習慣。</p>
 
-<blockquote>
-  <p>在接後端API &amp; 使用CSS style上，發現沒「制度化」真的是一件很困擾的事，例如代表同樣的key卻在其他的API會有另一種keyname (ex. theId|| the_id)
-CSS style雖然有拿到.scss的原檔，但在和近三個月的.css整合起來又是要費工夫了</p>
-</blockquote>
+<p>英文也是持續在加強的部分，有時有全體的會議、討論issue以及Code review都是很頻繁的事情。<br />
+每週的家教加上每日使用<small>(以及常駐國外實況主頻道~)</small>，進步的挺有成效，在口說上也更有自信。<br />
+也趁著AmazingTalker的週年特價，找到適合的老師並買了50堂課，這陣子上下來真的是高CP值啊！</p>
 
-<h3 id="priority">Priority</h3>
+<p>工作上用最多的技術不外乎是<strong>Vue</strong><small>(搭配Vuex, vue-router)</small>，也有發現前端的專案架構並沒有那麼好<small>(改變props的值…css class的命名…檔案存放規則)</small><br />
+在提出後改善掉這些，導入Eslint、升級Webpack至4.0，也去Github上看了許多人在使用Vue為底的專案，算是對<strong>架構</strong>有了多一層體悟。<br />
+不論用React還是Vue，<strong>好</strong>的架構隨著專案複雜度的上升，會有明顯的優勢。</p>
 
-<blockquote>
-  <p>剛面試完，以為近來不久就差不多要將專案用Angular||React來重構，但面對的是一直有新的page要產出&amp;優化先前的Code(Loading page時間過長)&amp;處理IE相容性問題…
-<br />在沒有標準化&amp;其他前端工具下，而前端工程師又只有我一人，造成沒法放太多時間在檢查自己的程式，必須要開發下個功能 or Page。
-<br />雖然能理解新創想趕緊將第一版產品上線的心情，公司產品最有價值的或許是背後的演算法，但要呈現出畫面的「過程」，如果不能經過標準化&amp;高擴充\維護性來開發，可能會本末導致整個產品的延後及品質。</p>
-</blockquote>
+<h3 id="至今">至今</h3>
+<p>這幾個月來當然也有些人事異動，連高層都有，但也加入了很多夥伴，開發/行銷/業務/管理都有擴編；也需要去習慣不同國家的口音，這部分真的只能更專注地聆聽來補強了。<br />
+遠端的優勢對我而言還是很有吸引力，省了通勤(也不太用治裝)，多了時間顧貓，但三餐偶爾會忽略;總之省的那些時間，拿來學習或放鬆都覺得超值啦！<br />
+但也會懷念在公司和同事們相處的日子，確實會對同事比較認識，有一群好同事在同個空間裡，上班的效率、心情都會有大幅的正面影響。</p>
 
-<p>當然，這兩個月確實也有學到東西，也不斷督促自己要為自己寫的Code負責，才交給QA去測試。<br />
-在閱覽Library API Doc也越來越抓到訣竅，畢竟新創專案中避免重造輪子，能用套件實現的就盡量用，但在使用上也要兼顧程式的「複用性」。<br />
-本身沒有很在意滿8小時就要趕緊下班，常常都希望能把這功能 or Bug Fix一段落再走，待8.5~9.5h也不覺得虧到，但經過這陣子確實滅了些當初進來的熱忱。</p>
-
+<p>在新技術上，雖然有持續關注，像是<strong>React Hooks</strong>、<strong>Flutter</strong>，還有想嘗試的<strong>GraphQL</strong>、<strong>Golang</strong>…等，皆暫時沒有開專案去碰，只有看文章而已。<br />
+主要是想把自己原有的基礎再更穩固，從演算法、資料結構再到目前前端上的Javascript、Browser &amp; Networking，畢竟就像大家說的，隨便挑一個領域水都很深，需要花時間的。<br />
+像是<strong>Closure</strong>&amp;<strong>Hoisting</strong>這兩項基礎，每隔一陣子就會再複習一遍，直到最近看到<a href="https://github.com/aszx87410/blog">Huli</a>針對這兩塊做更深入的解說後，又有豁然開朗的感覺。<br />
+確實有想過，只做前端會不會容易碰上「天花板」；但我覺得這只是跨入軟工的一種起手方式，不斷精進自我，加強基本功，當有機會時去爭取、去把握住，就能走得更寬更深。<br />
+目前依然以前端工程師的頭銜，努力去成為優秀的軟體工程師，與大家共勉之。</p>
 
   </div>
 
