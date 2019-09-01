@@ -3,11 +3,52 @@
   <channel>
     <title>Quentin.Tu</title>
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
-    <link>https://tu-szu-chi.github.io/</link>
-    <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Apr 2019 23:59:42 +0800</pubDate>
-    <lastBuildDate>Sun, 07 Apr 2019 23:59:42 +0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 01 Sep 2019 20:12:42 +0800</pubDate>
+    <lastBuildDate>Sun, 01 Sep 2019 20:12:42 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>工作雜談(1)</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;在新公司也滿四個月了，趕緊寫下近期的心得&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;前期&quot;&gt;前期&lt;/h1&gt;
+&lt;p&gt;在台灣公司還沒註冊前(三月終)，就和其他同為團隊第一批的員工一起到北京交接專案，想不到去的公司竟然是一線大廠呢。
+為期三天的交接算是有點匆促，尤其對方做的簡報明顯準備不足，回台灣後還是有諸多疑問，但Source Code因為雙方還沒正式簽約，所以還沒權限閱覽。
+直到五月初的某天下午，突然宣布可以存取Source Code了XD，當下大家立刻照之前所說，將所有事放一旁，專注在研究各自的原始碼。
+約莫兩週左右，前端成為第一個發佈改動到Production上的團隊(其他人還在被那繁雜的Code苦擾中)。&lt;/p&gt;
+
+&lt;h2 id=&quot;遊戲&quot;&gt;遊戲&lt;/h2&gt;
+&lt;p&gt;在交接的空窗期也當然不是沒事做，為了讓團隊磨合，所以一起策畫了一個新的遊戲，終期目標是放到既有的平台上讓客戶玩。
+這是蠻有意思的體驗，從無到有打造一款小遊戲，確實對這剛起步的團隊是很好的潤滑劑。
+而在評估工具時，當初認為直接用純HTML5來做就好，但如果讓我們再選，一定選用框架…&lt;/p&gt;
+
+&lt;h1 id=&quot;中期&quot;&gt;中期&lt;/h1&gt;
+&lt;p&gt;隨著團隊人數上升，也陸續將專案的CI/CD等基礎建設都掌握住了，實際跑專案也較快熟悉彼此的個性和公司的文化，也有跑Scrum；PM,UI/UX,Back-End,Front-End,Android,QA，每天也都有Standup meeting。
+但不得不說，大家都對交接的Code的品質期望太高了…
+過度的包裝，不易讀的命名，不嚴謹的Eslint rule，也真的是有夠愛造輪子…
+也因為剛接手專案，不能太多的重構，畢竟專案掌握度還不高，不能評估潛在影響範圍。&lt;/p&gt;
+
+&lt;h1 id=&quot;至今&quot;&gt;至今&lt;/h1&gt;
+&lt;p&gt;換到氣派的辦公室，人數也超過30了，也有幾次內部技術分享的聚會(當然是上班時段啦)。
+看到公司這樣穩定成長心裡也覺得踏實，畢竟一般人聽到博弈+新創這兩個加在一起根本風險超大嘛；但自己也是幸運的那位，在寫這篇文的同時，之前面試過的某公司已經解散了…
+雖然永遠都會有看起來更好的缺，更高的薪水，但一家適合自己的公司加入了才知道；願自己在這階段，不斷提升自我能力外，也成為推動公司成長的一大助力。&lt;/p&gt;
+</description>
+        <pubDate>Wed, 28 Aug 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/job/2019/08/28/%E5%B7%A5%E4%BD%9C%E9%9B%9C%E8%AB%87(1)/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2019/08/28/%E5%B7%A5%E4%BD%9C%E9%9B%9C%E8%AB%87(1)/</guid>
+        
+        <category>JOB</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>JOB</category>
+        
+      </item>
     
       <item>
         <title>前端面試(3)</title>
@@ -71,8 +112,8 @@
 &lt;p&gt;祝各位皆能找到職涯方向，機會進得來，軟工發大財，共勉之&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Mar 2019 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2019/03/21/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(3)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2019/03/21/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(3)/</guid>
+        <link>http://localhost:4000/job/2019/03/21/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(3)/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2019/03/21/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(3)/</guid>
         
         <category>JOB</category>
         
@@ -115,8 +156,8 @@
 目前依然以前端工程師的頭銜，努力去成為優秀的軟體工程師，與大家共勉之。&lt;/p&gt;
 </description>
         <pubDate>Tue, 05 Feb 2019 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2019/02/05/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(4)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2019/02/05/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(4)/</guid>
+        <link>http://localhost:4000/job/2019/02/05/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(4)/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2019/02/05/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(4)/</guid>
         
         <category>JOB</category>
         
@@ -177,8 +218,8 @@
 也在這推薦兩個網站: &lt;a href=&quot;https://pjchender.blogspot.com/&quot;&gt;「PJCHENder」&lt;/a&gt;/&lt;a href=&quot;https://denny.qollie.com/&quot;&gt;「denny.qollie」&lt;/a&gt;, 從這兩個網站受益良多&lt;br /&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</guid>
+        <link>http://localhost:4000/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2018/07/06/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(2)/</guid>
         
         <category>JOB</category>
         
@@ -210,8 +251,8 @@
 期待SOV之後的成長, 也期許自己不自滿, 持續分享給社群&lt;/p&gt;
 </description>
         <pubDate>Fri, 06 Jul 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/life/2018/07/06/Bye-Bye-SOV/</guid>
+        <link>http://localhost:4000/life/2018/07/06/Bye-Bye-SOV/</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2018/07/06/Bye-Bye-SOV/</guid>
         
         <category>SOV</category>
         
@@ -227,8 +268,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2018/03/27/haskell-with-module/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 27 Mar 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2018/03/27/haskell-with-module/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2018/03/27/haskell-with-module/</guid>
+        <link>http://localhost:4000/sovmedcare/2018/03/27/haskell-with-module/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2018/03/27/haskell-with-module/</guid>
         
         <category>SOV</category>
         
@@ -244,8 +285,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2018/03/19/learn-youa-haskell/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Mar 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2018/03/19/learn-youa-haskell/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2018/03/19/learn-youa-haskell/</guid>
+        <link>http://localhost:4000/sovmedcare/2018/03/19/learn-youa-haskell/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2018/03/19/learn-youa-haskell/</guid>
         
         <category>SOV</category>
         
@@ -330,8 +371,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 06 Mar 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</guid>
+        <link>http://localhost:4000/interview/2018/03/06/TCP-IP/</link>
+        <guid isPermaLink="true">http://localhost:4000/interview/2018/03/06/TCP-IP/</guid>
         
         <category>Interview</category>
         
@@ -345,8 +386,8 @@
         <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/11/15/docker-example/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Nov 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</guid>
+        <link>http://localhost:4000/sovmedcare/2017/11/15/Docker-Example/</link>
+        <guid isPermaLink="true">http://localhost:4000/sovmedcare/2017/11/15/Docker-Example/</guid>
         
         <category>SOV</category>
         
@@ -375,8 +416,8 @@
 持續寫更多技術性文章&amp;amp;貢獻些甚麼到技術社群或參與公民專案&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Oct 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</guid>
+        <link>http://localhost:4000/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</link>
+        <guid isPermaLink="true">http://localhost:4000/job/2017/10/09/%E8%8F%9C%E9%B3%A5%E5%B7%A5%E7%A8%8B%E5%B8%AB(3)/</guid>
         
         <category>JOB</category>
         
@@ -384,23 +425,6 @@
         
         
         <category>JOB</category>
-        
-      </item>
-    
-      <item>
-        <title>Javascript ES6 Generator 介紹</title>
-        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/09/27/js-es6-generator/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 27 Sep 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/09/27/javascript-es6-generator/</guid>
-        
-        <category>SOV</category>
-        
-        <category>Front-End</category>
-        
-        
-        <category>SOVMedCare</category>
         
       </item>
     
