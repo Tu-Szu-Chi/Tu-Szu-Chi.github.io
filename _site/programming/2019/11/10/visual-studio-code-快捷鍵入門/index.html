@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="https://tu-szu-chi.github.io/favicon.ico?">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/stylesheet.css">
-  <link rel="canonical" href="https://tu-szu-chi.github.io/sovmedcare/2017/09/08/Function-Currying/">
+  <link rel="canonical" href="https://tu-szu-chi.github.io/programming/2019/11/10/visual-studio-code-%E5%BF%AB%E6%8D%B7%E9%8D%B5%E5%85%A5%E9%96%80/">
   <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/sharing-popup.css">
   <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/myCss.css">
   <link rel="stylesheet" href="https://tu-szu-chi.github.io/stylesheets/navbar.css">
@@ -15,9 +15,9 @@
   <script   src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
   <link rel="alternate" type="application/rss+xml" title="Quentin.Tu" href="https://tu-szu-chi.github.io/feed.xml">
   <script src="https://use.fontawesome.com/080141b397.js"></script>
-  <meta name="description" content="發表於SOVMedCare Tech">
+  <meta name="description" content="VScode-快捷鍵-入門">
 
-   <title>Function Currying</title>
+   <title>快捷鍵就是你的生產力 - Visual Studio Code</title>
 
 
   <script>
@@ -72,13 +72,13 @@ function myFunction() {
 
     <div class="main-content" itemprop="articleBody">
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline" >Function Currying&nbsp;&nbsp;
-      <a class="small-tags-space small-tags-list" href="/category/#sovmedcare"><i class="fa fa-thumb-tack" aria-hidden="true"></i>SOVMedCare</a>
+    <h1 class="post-title" itemprop="name headline" >快捷鍵就是你的生產力 - Visual Studio Code&nbsp;&nbsp;
+      <a class="small-tags-space small-tags-list" href="/category/#programming"><i class="fa fa-thumb-tack" aria-hidden="true"></i>Programming</a>
     </h1>
-   <span class="post-meta"><time datetime="2017-09-08T00:00:00+08:00" itemprop="datePublished">Sep 8, 2017</time></span>
+   <span class="post-meta"><time datetime="2019-11-10T00:00:00+08:00" itemprop="datePublished">Nov 10, 2019</time></span>
    <span style="margin-left:20px">
      
-     <a href="https://tu-szu-chi.github.io/tag/#sov" class="codinfox-mark"><i class="fa fa-tag" aria-hidden="true"></i> SOV </a> &nbsp;&nbsp;
+     <a href="https://tu-szu-chi.github.io/tag/#programming" class="codinfox-mark"><i class="fa fa-tag" aria-hidden="true"></i> Programming </a> &nbsp;&nbsp;
      
      <a href="https://tu-szu-chi.github.io/tag/#front-end" class="codinfox-mark"><i class="fa fa-tag" aria-hidden="true"></i> Front-End </a> &nbsp;&nbsp;
      
@@ -87,7 +87,105 @@ function myFunction() {
 
   </header>
 <hr>
-    <p>發表於<a href="https://sovmedcare.github.io/2017/09/08/Function-Currying/">SOVMedCare Tech</a></p>
+    <blockquote>
+  <p>以下環境為 OSX</p>
+</blockquote>
+
+<p>工程師每天的日常想必脫離不了跟IDE<del>vim</del>為伍，<strong>Visual Studio Code</strong>應該可算是近年也頗受推崇的IDE之一。
+身為愛好者之一，除了複製/貼上/全選之外，就讓我分享下平時個人最常用的那些快捷鍵。</p>
+
+<p>⌥ : option<br />
+⌘ : command<br />
+⇧ : shift</p>
+
+<h2 id="編輯">編輯</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>說明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>⌥ + ↓ (↑)</td>
+      <td>移動當前行, 往上或下</td>
+    </tr>
+    <tr>
+      <td>⌘ + → (←)</td>
+      <td>光標移動到行末(首)</td>
+    </tr>
+    <tr>
+      <td>⌥ + → (←)</td>
+      <td>光標移動往左(右)一段字節</td>
+    </tr>
+    <tr>
+      <td>⌘ + L</td>
+      <td>選取當前行</td>
+    </tr>
+    <tr>
+      <td>⌘ + /</td>
+      <td>當前行註解</td>
+    </tr>
+    <tr>
+      <td>⌘ + D</td>
+      <td>批次選取查找匹配的字段 (先選取想找的字段，再按下快捷鍵即可見效)</td>
+    </tr>
+    <tr>
+      <td>⌘ + ⇧ + F</td>
+      <td>全域搜索</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="視窗">視窗</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>說明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>⌘ + B</td>
+      <td>切換側邊欄顯示</td>
+    </tr>
+    <tr>
+      <td>⌘ + E</td>
+      <td>打開<strong>檔案總管</strong></td>
+    </tr>
+    <tr>
+      <td>⌘ + T</td>
+      <td>打開Symbols (便於輸入路徑開啟檔案，路徑的匹配很AI呢)</td>
+    </tr>
+    <tr>
+      <td>⌘ + ⇧ + P</td>
+      <td>打開Symbols的指令模式，試著輸入你有安裝過的插件名稱，會陳列出可用指令(zoom, reload…)</td>
+    </tr>
+    <tr>
+      <td>⌘ + ⇧ + N</td>
+      <td>開新編輯器</td>
+    </tr>
+    <tr>
+      <td>⌘ + O</td>
+      <td>開啟專案</td>
+    </tr>
+    <tr>
+      <td>⌘ + ⌥ + 2</td>
+      <td>新開編輯分頁(真．實用)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="end">End</h1>
+
+<p>對，就這樣，就是這麼少介紹；以上這些快捷鍵90%都是我每天會用到的指令。<br />
+畢竟快捷鍵這種東西，就是要常用才會成為習慣，個人也是厭倦了反覆利用鼠標去操作那些頻繁的行為，才去查快捷鍵。<br />
+當你買了把好鍵盤，不找機會多敲他幾下，反而用滑鼠去達到目的，實在太虧了。<br />
+最後附上<a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">Visual Studio Code - keyboard-shortcuts</a> 文檔</p>
 
   </div>
 

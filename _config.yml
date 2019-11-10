@@ -11,7 +11,8 @@ description: '分享我在Web相關技術學習心得&生活札記' # write a ni
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://tu-szu-chi.github.io' # the base hostname & protocol for your site http://www.example.com
 google_analytics: 'UA-85774592-1'
-facebook_username: 'zuchi.tu'
+username: 'szuchi.tu'
+linkedin: 'https://www.linkedin.com/in/%E6%80%9D%E9%BD%8A-%E6%B6%82-912215124/'
 
 # Build settings
 markdown: kramdown
