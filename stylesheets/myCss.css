@@ -5,13 +5,17 @@
     padding: 1em;
     background-color: powderblue;
     border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 .codinfox-mark{
-    color: #999;
+    color: white;
     text-decoration: none;
-    background-color: mintcream;
-    padding: 0.3em;
+    background-color: darkslategray;
+    padding: 6px;
     border-radius: 6px;
+    font-size: 12px;
 }
 /*
 *For Category list
@@ -40,8 +44,14 @@
   -moz-transform: translate(-10px,0); /** Firefox **/
 }
 .small-tags-space{
-  padding: 0.2em;
-  background-color: mintcream;
+  background-color: darkslategray;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 6px;
+  color: white; 
 }
 .small-tags-list{
   font-size: 0.7em;

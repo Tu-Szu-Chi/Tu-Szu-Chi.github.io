@@ -5,9 +5,79 @@
     <description>分享我在Web相關技術學習心得&amp;生活札記</description>
     <link>https://tu-szu-chi.github.io/</link>
     <atom:link href="https://tu-szu-chi.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 Nov 2019 21:41:51 +0800</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2019 21:41:51 +0800</lastBuildDate>
+    <pubDate>Wed, 01 Mar 2023 23:21:28 +0800</pubDate>
+    <lastBuildDate>Wed, 01 Mar 2023 23:21:28 +0800</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>關於那些工作的事</title>
+        <description>&lt;p&gt;距離上次發文竟然是2021的事了，原本想說在2021加入幣安後要上來寫些東西，結果到離職了都還沒產出!? 就用接下來這篇幅再次記錄/分享下這幾年的事&lt;/p&gt;
+
+&lt;h2 id=&quot;幣安-binance&quot;&gt;幣安 Binance&lt;/h2&gt;
+
+&lt;p&gt;當初選擇加入這龍頭交易所，主要是自身處於對職涯的一個迷惘，想去一流的大公司看下是怎樣的工作氛圍，是否能給予我更多的自我認識&lt;/p&gt;
+
+&lt;p&gt;結果誤打誤撞加入了新團隊，再次體驗新創衝刺的氛圍!? 但也不差，確實見識了下這種數千人的公司是如何在Fully-remote模式下持續運轉著&lt;/p&gt;
+
+&lt;p&gt;一開始加入了Futures大組底下的Social Trading，接著短暫支援KYC，末期轉組到BNB Chain，所以我想接下來的評論應該不會太偏頗&lt;/p&gt;
+
+&lt;h3 id=&quot;氛圍&quot;&gt;氛圍&lt;/h3&gt;
+
+&lt;p&gt;共事到的還是中國人居多，台灣人也不少，部分印度、越南…etc，在幣安內各國的人都有，我不認為特定國籍的人就有”某種”性格，case by case，就是個很普遍的職場所見&lt;/p&gt;
+
+&lt;p&gt;但Fully-remote確實會和同事的”距離”拉遠些(非物理)，比較公事公辦，這點我並不討厭，全遠端的益處對我而言遠遠大於弊，我幾乎可說是很難再想像天天進辦公室上班的日子了&lt;/p&gt;
+
+&lt;p&gt;WLB(Work-Life-Balance)在此絕對不是第一優先考量，我想公司推崇這事，對於有點工作狂的我而言挺適應的，畢竟在加入前就耳聞獎金給得很大方(近年有變數，這又是後話了)&lt;/p&gt;
+
+&lt;p&gt;2022年時蠻多同事都relocate到新加坡/杜拜去了(政策考量)，甚至有巴黎、加拿大、泰國，所以時區的差異也是考驗協同工作的一環&lt;/p&gt;
+
+&lt;p&gt;2022末逐漸感受到公司對員工的監控更加嚴格，雖說作為交易所龍頭，對於資安的管控勢必更要嚴格，只是做為其中一員我並不是很樂見這情況，周遭確實有不少反感的聲音，甚至也成為了不少人離開的原因&lt;/p&gt;
+
+&lt;h3 id=&quot;值得嗎&quot;&gt;值得嗎?&lt;/h3&gt;
+
+&lt;p&gt;雖然我並沒有在幣安待太長時間，甚至當初跳槽使我在收入部分有不少損失；但這趟歷程我是覺得很值得，幫我很好釐清自己所追求的是甚麼&lt;/p&gt;
+
+&lt;p&gt;整體而言，我認為符合這些條件的人適合去幣安: 工作狂人格、耐高壓、追求錢、傾向Fully-remote&lt;/p&gt;
+
+&lt;h2 id=&quot;小結&quot;&gt;小結&lt;/h2&gt;
+
+&lt;p&gt;我是在2023/02離開的，但其實無關於獎金多寡和監控(熊市這年領到的比預期還好)；單純是我經過2022不斷的反思後，終於決定持續往軟體工程師這條路走，也在2022/09時決心先轉為後端工程師作為職涯發展，補足自己對於整體軟功架構所缺失的一塊&lt;/p&gt;
+
+&lt;p&gt;所以在持續的自學後，再次聯繫前東家老闆，也順利以後端工程師角色重回公司；薪水當然有重談(降低)，但對於轉換領域的我來說條件是非常好了&lt;/p&gt;
+
+&lt;p&gt;另一點是之前對於金錢很焦慮，有點急於追求財富成長，深怕作為工程師的薪水無法負荷我想要的生活；好在之後遇見了投資上的高人，整體心態才有所調整，步調慢了下來，對於工作也不再那麼焦慮&lt;/p&gt;
+
+&lt;p&gt;28歲這年從後端再次出發，等成為Sr.Backend時也三十歲了，期許自己不斷反思、精進自我、謙虛待人&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Mar 2023 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/job/2023/03/01/%E8%81%B7%E6%B6%AF%E8%BD%89%E6%8F%9B-%E5%91%8A%E5%88%A5%E5%B9%A3%E5%9C%88/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2023/03/01/%E8%81%B7%E6%B6%AF%E8%BD%89%E6%8F%9B-%E5%91%8A%E5%88%A5%E5%B9%A3%E5%9C%88/</guid>
+        
+        <category>Job</category>
+        
+        <category>Life</category>
+        
+        
+        <category>Job</category>
+        
+      </item>
+    
+      <item>
+        <title>前端面試(4)</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.ptt.cc/bbs/Soft_Job/M.1629116047.A.E66.html&quot;&gt;發表於 PTT Soft_job&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 Aug 2021 00:00:00 +0800</pubDate>
+        <link>https://tu-szu-chi.github.io/job/2021/08/16/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(4)/</link>
+        <guid isPermaLink="true">https://tu-szu-chi.github.io/job/2021/08/16/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%A9%A6(4)/</guid>
+        
+        <category>JOB</category>
+        
+        <category>Front-End</category>
+        
+        
+        <category>JOB</category>
+        
+      </item>
     
       <item>
         <title>快捷鍵就是你的生產力 - Visual Studio Code</title>
@@ -82,7 +152,7 @@
       &lt;td&gt;打開&lt;strong&gt;檔案總管&lt;/strong&gt;&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;⌘ + T&lt;/td&gt;
+      &lt;td&gt;⌘ + P&lt;/td&gt;
       &lt;td&gt;打開Symbols (便於輸入路徑開啟檔案，路徑的匹配很AI呢)&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
@@ -406,105 +476,6 @@
         <category>SOV</category>
         
         <category>Haskell</category>
-        
-        
-        <category>SOVMedCare</category>
-        
-      </item>
-    
-      <item>
-        <title>TCP/IP 概述</title>
-        <description>&lt;p&gt;&lt;strong&gt;TCP/IP&lt;/strong&gt;觀念是面試常見的問題&lt;/p&gt;
-
-&lt;p&gt;三次握手/四次分手該如何解釋？&lt;/p&gt;
-
-&lt;p&gt;網路層/傳輸層主要在做些什麼？&lt;/p&gt;
-
-&lt;p&gt;雖然自己反覆看了幾篇文章，但隔一陣子看到有人面試被問到後，自己卻也想不起該怎應答，所以決定還是整理一下思路，寫成一篇文章。&lt;/p&gt;
-
-&lt;h1 id=&quot;tcpip協議&quot;&gt;TCP/IP協議&lt;/h1&gt;
-
-&lt;p&gt;TCP, IP這兩個拆開來看，前者位在&lt;strong&gt;傳輸層&lt;/strong&gt;，後者是&lt;strong&gt;網路層&lt;/strong&gt;的協議，但TCP/IP廣泛的就是代表整個Internet協議&lt;/p&gt;
-
-&lt;p&gt;!&lt;a href=&quot;https://user-gold-cdn.xitu.io/2017/11/11/690219fae5b0587fa26e2dee545e6200?imageslim.png&quot;&gt;截自掘金&lt;/a&gt;
-&lt;/p&gt;
-
-&lt;h2 id=&quot;tcp--udp&quot;&gt;TCP | UDP&lt;/h2&gt;
-
-&lt;p&gt;TCP是較爲可靠的傳輸協議，具有順序&amp;amp;重發機制，在需要保證資料使命必答時多會用這種協議。&lt;/p&gt;
-
-&lt;p&gt;UDP相對資料傳輸來說相對不可靠，但其速度是較快的，所以當應用可以接受部分損失的情況下多爲用UDP &lt;code class=&quot;highlighter-rouge&quot;&gt;（ex. 直播,串流影音,廣播...）&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;關於重發機制推薦參考這篇&lt;a href=&quot;https://juejin.im/post/5a7835a46fb9a063606eb801#heading-13&quot;&gt;掘金上的文章&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ip&quot;&gt;IP&lt;/h2&gt;
-
-&lt;p&gt;IP是大家較爲熟悉的名詞，其代表的就是每臺主機在網際網路中的地址。&lt;/p&gt;
-
-&lt;p&gt;IP(IPv4)是由32位元正整數來表示，但爲了方便閱讀，電腦幫我們轉成4組8位元的2進制，並用10進制顯示&lt;/p&gt;
-
-&lt;p&gt;更多詳細的介紹可參考&lt;a href=&quot;https://juejin.im/post/5a069b6d51882509e5432656#heading-21&quot;&gt;這篇&lt;/a&gt;，一樣是掘金上的文章&lt;/p&gt;
-
-&lt;h1 id=&quot;三次握手&quot;&gt;三次握手&lt;/h1&gt;
-
-&lt;p&gt;這概念應該是最常被問到的部分，下圖簡潔的表達出用意&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-gold-cdn.xitu.io/2018/2/5/1616591833b5d408?imageslim.png&quot; alt=&quot;三次握手&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SYN&lt;/strong&gt; = synchronize 同步 | &lt;strong&gt;ACK&lt;/strong&gt; = acknowledgment 確認
-&lt;/p&gt;
-
-&lt;h2 id=&quot;爲什麼要三次握手&quot;&gt;爲什麼要三次握手&lt;/h2&gt;
-
-&lt;p&gt;先用較爲口語來說明三次握手的用意&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;第一次通信時，Client向Server發送訊息，Server收到後可以確認自己的接收能力&amp;amp;Client的發送能力沒有問題&lt;/li&gt;
-  &lt;li&gt;接着第二次通信，Server向Client發送訊息，Client也可以確認自己的發送能力&amp;amp;Server的接收能力沒有問題，因爲Server發回來的東西是基於Client第一次發送的延伸，但此時Server還不能知道自己的發信能力是否得到認可&lt;/li&gt;
-  &lt;li&gt;最後第三次通信，Client向Server發送訊息，此時Server接收到後就知道自己沒問題了&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;給對方認可就會夾帶&lt;strong&gt;ACK&lt;/strong&gt;，請別人認證就會夾帶&lt;strong&gt;SYN&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;之所以要三次是因爲這是要達成&lt;strong&gt;可靠傳輸&lt;/strong&gt;理論上的最小值，否則就像UDP那般直接傳送就好。&lt;/p&gt;
-
-&lt;h1 id=&quot;四次分手&quot;&gt;四次分手&lt;/h1&gt;
-
-&lt;p&gt;有連有斷，再連不難；先用這張圖表達分手的概念&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://user-gold-cdn.xitu.io/2018/2/5/1616591831ac99e0?imageView2/0/w/1280/h/960/format/webp/ignore-error/1&quot; alt=&quot;四次分手&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;TCP連接是全雙工的，所以兩邊都要各自斷開才行，發送&lt;strong&gt;FIN&lt;/strong&gt;即代表要請求斷開，所以一來一往四次剛剛好&lt;/p&gt;
-
-&lt;p&gt;第四次Client向Server發送確認斷開連接後，只要等待&lt;strong&gt;2msl&lt;/strong&gt;都沒收到任何消息，Client就可以安心的關閉連接了 &lt;code class=&quot;highlighter-rouge&quot;&gt;(msl: Maximum Segment Lifetime)&lt;/code&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;參考資料&quot;&gt;參考資料&lt;/h1&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5a069b6d51882509e5432656&quot;&gt;一篇文章带你熟悉 TCP/IP 协议（网络协议篇二）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://juejin.im/post/5a7835a46fb9a063606eb801&quot;&gt;图解TCP三次握手与四次分手&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 06 Mar 2018 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/interview/2018/03/06/TCP-IP/</guid>
-        
-        <category>Interview</category>
-        
-        
-        <category>Interview</category>
-        
-      </item>
-    
-      <item>
-        <title>Docker基礎架設(以Python Scrapy為例)</title>
-        <description>&lt;p&gt;發表於&lt;a href=&quot;https://sovmedcare.github.io/2017/11/15/docker-example/&quot;&gt;SOVMedCare Tech&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Nov 2017 00:00:00 +0800</pubDate>
-        <link>https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</link>
-        <guid isPermaLink="true">https://tu-szu-chi.github.io/sovmedcare/2017/11/15/Docker-Example/</guid>
-        
-        <category>SOV</category>
         
         
         <category>SOVMedCare</category>

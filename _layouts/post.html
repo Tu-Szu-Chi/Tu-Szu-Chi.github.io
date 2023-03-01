@@ -18,7 +18,6 @@ layout: default
     <div class="main-content" itemprop="articleBody">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline" >{{ page.title }}&nbsp;&nbsp;
-      <a class="small-tags-space small-tags-list" href="/category/#{{ post.category | slugify }}"><i class="fa fa-thumb-tack" aria-hidden="true"></i>{{ post.category}}</a>
     </h1>
    <span class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</span>
    <span style="margin-left:20px">

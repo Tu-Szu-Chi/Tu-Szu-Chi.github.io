@@ -3,15 +3,12 @@ layout: page
 title: About Me
 ---
 
-> 涂思齊 , 1995/2
-
 2013-2016 北科大資訊工程
 
-喜歡咖啡、電影和義大利麵
+重度貓奴，兩隻美好的胖子相伴
 
-投入過程式教育、Fintech，也持續投資股市
+投入過程式教育、Fintech、新創、幣圈
 
-最終以Front-End踏入社會，期許能不斷提升自我價值並分享出來。
+以前端踏入職場，現為後端工程師，期許能不斷提升自我價值並分享出來。
 
->Email: tost84226@gmail.com<br>
->Github: [Tu-Szu-Chi](https://github.com/Tu-Szu-Chi)
+>Email: quentin.tu.sc@gmail.com
